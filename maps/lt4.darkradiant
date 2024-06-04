@@ -1,0 +1,195 @@
+DarkRadiant Map Information File Version 2
+{
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "2505" } 
+		KeyValue { "LastCameraAngle" "7.6 108.4 0" } 
+		KeyValue { "LastCameraPosition" "409.209 -94.0136 -664.443" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/sculpted/tiling_1d/trim_lime_interlock" } 
+	}
+	SelectionSets
+	{
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 2505 }
+	}
+	Layers
+	{
+		Layer 0 { Default }
+	}
+	LayerProperties
+	{
+		ActiveLayer { 0 }
+		HiddenLayers {  }
+	}
+	LayerHierarchy
+	{
+		Layer 0 Parent { -1 }
+	}
+	NodeToLayerMapping
+	{
+		Node { 0 } // entity (world)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (ambient_world)
+		Node { 0 } // entity (Objectives)
+		Node { 0 } // entity (CompassEasy)
+		Node { 0 } // entity (LanternEasy)
+		Node { 0 } // entity (SpyglassEasy)
+		Node { 0 } // entity (HealthPotionsEasy)
+		Node { 0 } // entity (SwordEasy)
+		Node { 0 } // entity (BlackjackEasy)
+		Node { 0 } // entity (BreathPotionsEasy)
+		Node { 0 } // entity (FlashbombsEasy)
+		Node { 0 } // entity (key_master)
+		Node { 0 } // entity (ShopItems)
+		Node { 0 } // entity (BroadheadsEasy)
+		Node { 0 } // entity (BroadheadsHard)
+		Node { 0 } // entity (BroadheadsExpert)
+		Node { 0 } // entity (FireArrowsEasy)
+		Node { 0 } // entity (FireArrowsHard)
+		Node { 0 } // entity (FireArrowsExpert)
+		Node { 0 } // entity (GasArrowsEasy)
+		Node { 0 } // entity (GasArrowsHard)
+		Node { 0 } // entity (GasArrowsExpert)
+		Node { 0 } // entity (MossArrowsEasy)
+		Node { 0 } // entity (MossArrowsExpert)
+		Node { 0 } // entity (MossArrowsHard)
+		Node { 0 } // entity (NoiseArrowsEasy)
+		Node { 0 } // entity (NoiseArrowsHard)
+		Node { 0 } // entity (NoiseArrowsExpert)
+		Node { 0 } // entity (RopeArrowsEasy)
+		Node { 0 } // entity (RopeArrowsHard)
+		Node { 0 } // entity (RopeArrowsExpert)
+		Node { 0 } // entity (WaterArrowsEasy)
+		Node { 0 } // entity (WaterArrowsHard)
+		Node { 0 } // entity (WaterArrowsExpert)
+		Node { 0 } // entity (BlackjackHard)
+		Node { 0 } // entity (BlackjackExpert)
+		Node { 0 } // entity (SwordHard)
+		Node { 0 } // entity (SwordExpert)
+		Node { 0 } // entity (CompassHard)
+		Node { 0 } // entity (CompassExpert)
+		Node { 0 } // entity (LanternHard)
+		Node { 0 } // entity (LanternExpert)
+		Node { 0 } // entity (SpyglassHard)
+		Node { 0 } // entity (SpyglassExpert)
+		Node { 0 } // entity (FlashbombsHard)
+		Node { 0 } // entity (FlashbombsExpert)
+		Node { 0 } // entity (HealthPotionsHard)
+		Node { 0 } // entity (HealthPotionsExpert)
+		Node { 0 } // entity (BreathPotionsHard)
+		Node { 0 } // entity (BreathPotionsExpert)
+		Node { 0 } // entity (LockpickSnakeEasy)
+		Node { 0 } // entity (LockpickTriangleEasy)
+		Node { 0 } // entity (MinesEasy)
+		Node { 0 } // entity (HolyWatersEasy)
+		Node { 0 } // entity (FlashminesEasy)
+		Node { 0 } // entity (LockpickSnakeHard)
+		Node { 0 } // entity (LockpickSnakeExpert)
+		Node { 0 } // entity (LockpickTriangleHard)
+		Node { 0 } // entity (LockpickTriangleExpert)
+		Node { 0 } // entity (FlashminesHard)
+		Node { 0 } // entity (FlashminesExpert)
+		Node { 0 } // entity (MinesHard)
+		Node { 0 } // entity (MinesExpert)
+		Node { 0 } // entity (HolyWatersHard)
+		Node { 0 } // entity (HolyWatersExpert)
+		Node { 0 } // entity (VineArrowsEasy)
+		Node { 0 } // entity (VineArrowsHard)
+		Node { 0 } // entity (VineArrowsExpert)
+		Node { 0 } // entity (atdm_location_settings_1)
+		Node { 0 } // entity (func_static_1)
+		Node { 0 } // entity (func_static_2)
+		Node { 0 } // entity (info_player_start_1)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_1)
+	}
+	SelectionGroups
+	{
+		SelectionGroup 6 { "" }
+		SelectionGroup 7 { "" }
+		SelectionGroup 8 { "" }
+		SelectionGroup 9 { "" }
+	}
+	SelectionGroupNodeMapping
+	{
+		Node { ( 0 19 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 32 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 33 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 34 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 35 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 36 ) ( 7 ) } // brush (Brush)
+		Node { ( 0 37 ) ( 7 ) } // brush (Brush)
+		Node { ( 0 38 ) ( 7 ) } // brush (Brush)
+		Node { ( 0 39 ) ( 7 ) } // brush (Brush)
+		Node { ( 0 40 ) ( 7 ) } // brush (Brush)
+		Node { ( 0 41 ) ( 8 ) } // brush (Brush)
+		Node { ( 0 42 ) ( 8 ) } // brush (Brush)
+		Node { ( 0 43 ) ( 8 ) } // brush (Brush)
+		Node { ( 0 44 ) ( 8 ) } // brush (Brush)
+		Node { ( 0 45 ) ( 8 ) } // brush (Brush)
+		Node { ( 0 46 ) ( 9 ) } // brush (Brush)
+		Node { ( 0 47 ) ( 9 ) } // brush (Brush)
+		Node { ( 0 48 ) ( 9 ) } // brush (Brush)
+		Node { ( 0 49 ) ( 9 ) } // brush (Brush)
+		Node { ( 0 50 ) ( 9 ) } // brush (Brush)
+	}
+}
