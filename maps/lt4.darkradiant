@@ -2,17 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "12132" } 
-		KeyValue { "LastCameraAngle" "-0.799999 3.40001 0" } 
-		KeyValue { "LastCameraPosition" "212.591 -74.7389 -903.882" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/curbtrim_victoriangrime1" } 
-	}
-	SelectionSets
-	{
+		KeyValue { "EditTimeInSeconds" "14292" } 
+		KeyValue { "LastCameraAngle" "-12.4 71.8 0" } 
+		KeyValue { "LastCameraPosition" "137.738 -899.509 -561.251" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 12132 }
+		TotalSecondsEdited { 14292 }
 	}
 	Layers
 	{
@@ -635,6 +632,23 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (Objectives)
 		Node { 0 } // entity (CompassEasy)
@@ -837,6 +851,27 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_lamp_electric_outdoor_unattached_lit_4)
 		Node { 0 } // entity (func_static_124)
 		Node { 0 } // entity (func_emitter_1)
+		Node { 0 } // entity (func_static_125)
+		Node { 0 } // entity (func_static_126)
+		Node { 0 } // entity (func_static_127)
+		Node { 0 } // entity (func_static_128)
+		Node { 0 } // entity (func_static_129)
+		Node { 0 } // entity (func_static_130)
+		Node { 0 } // entity (func_static_131)
+		Node { 0 } // entity (func_static_132)
+		Node { 0 } // entity (func_static_134)
+		Node { 0 } // entity (func_static_135)
+		Node { 0 } // entity (func_static_136)
+		Node { 0 } // entity (func_emitter_2)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_2)
+		Node { 0 } // entity (func_emitter_3)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_3)
+		Node { 0 } // entity (func_emitter_4)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_4)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_5)
+		Node { 0 } // entity (func_emitter_5)
+		Node { 0 } // entity (func_emitter_6)
+		Node { 0 } // entity (atdm_streetlamp_round_02_lit_6)
 	}
 	SelectionGroups
 	{
@@ -975,6 +1010,14 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 165 { "" }
 		SelectionGroup 166 { "" }
 		SelectionGroup 167 { "" }
+		SelectionGroup 190 { "" }
+		SelectionGroup 192 { "" }
+		SelectionGroup 193 { "" }
+		SelectionGroup 194 { "" }
+		SelectionGroup 195 { "" }
+		SelectionGroup 196 { "" }
+		SelectionGroup 197 { "" }
+		SelectionGroup 198 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1484,6 +1527,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 600 ) ( 167 ) } // patch (Patch)
 		Node { ( 0 601 ) ( 167 ) } // patch (Patch)
 		Node { ( 0 602 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 614 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 617 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 618 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 619 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 620 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 621 ) ( 192 ) } // patch (Patch)
+		Node { ( 72 ) ( 193 ) } // entity (atdm_streetlamp_round_02_lit_1)
 		Node { ( 73 ) ( 12 ) } // entity (func_static_4)
 		Node { ( 74 ) ( 12 ) } // entity (func_static_5)
 		Node { ( 75 ) ( 12 ) } // entity (func_static_3)
@@ -1610,5 +1660,27 @@ DarkRadiant Map Information File Version 2
 		Node { ( 199 ) ( 164 ) } // entity (func_static_123)
 		Node { ( 200 ) ( 165 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_4)
 		Node { ( 201 ) ( 165 ) } // entity (func_static_124)
+		Node { ( 202 ) ( 193 ) } // entity (func_emitter_1)
+		Node { ( 203 ) ( 190 ) } // entity (func_static_125)
+		Node { ( 204 ) ( 190 ) } // entity (func_static_126)
+		Node { ( 205 ) ( 190 ) } // entity (func_static_127)
+		Node { ( 206 ) ( 190 ) } // entity (func_static_128)
+		Node { ( 207 ) ( 190 ) } // entity (func_static_129)
+		Node { ( 208 ) ( 190 ) } // entity (func_static_130)
+		Node { ( 209 ) ( 190 ) } // entity (func_static_131)
+		Node { ( 210 ) ( 190 ) } // entity (func_static_132)
+		Node { ( 214 ) ( 194 ) } // entity (func_emitter_2)
+		Node { ( 215 ) ( 194 ) } // entity (atdm_streetlamp_round_02_lit_2)
+		Node { ( 216 ) ( 195 ) } // entity (func_emitter_3)
+		Node { ( 217 ) ( 195 ) } // entity (atdm_streetlamp_round_02_lit_3)
+		Node { ( 218 ) ( 197 ) } // entity (func_emitter_4)
+		Node { ( 219 ) ( 197 ) } // entity (atdm_streetlamp_round_02_lit_4)
+		Node { ( 220 ) ( 196 ) } // entity (atdm_streetlamp_round_02_lit_5)
+		Node { ( 221 ) ( 198 ) } // entity (func_emitter_5)
+		Node { ( 222 ) ( 196 ) } // entity (func_emitter_6)
+		Node { ( 223 ) ( 198 ) } // entity (atdm_streetlamp_round_02_lit_6)
+	}
+	SelectionSets
+	{
 	}
 }
