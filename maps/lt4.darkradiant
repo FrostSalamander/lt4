@@ -2,14 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "14292" } 
-		KeyValue { "LastCameraAngle" "-12.4 71.8 0" } 
-		KeyValue { "LastCameraPosition" "137.738 -899.509 -561.251" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
+		KeyValue { "EditTimeInSeconds" "15601" } 
+		KeyValue { "LastCameraAngle" "-15.6 237.4 0" } 
+		KeyValue { "LastCameraPosition" "423.005 -544.273 -677.9" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/sculpted/tiling_1d/trim_sculpted_sandstone_03" } 
+	}
+	SelectionSets
+	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 14292 }
+		TotalSecondsEdited { 15601 }
 	}
 	Layers
 	{
@@ -649,6 +652,37 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (Objectives)
 		Node { 0 } // entity (CompassEasy)
@@ -872,6 +906,11 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_emitter_5)
 		Node { 0 } // entity (func_emitter_6)
 		Node { 0 } // entity (atdm_streetlamp_round_02_lit_6)
+		Node { 0 } // entity (func_static_2124)
+		Node { 0 } // entity (light_33)
+		Node { 0 } // entity (light_18)
+		Node { 0 } // entity (func_emitter_13)
+		Node { 0 } // entity (atdm_lamp_electric_square_2_lit_4)
 	}
 	SelectionGroups
 	{
@@ -1018,6 +1057,11 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 196 { "" }
 		SelectionGroup 197 { "" }
 		SelectionGroup 198 { "" }
+		SelectionGroup 2328 { "" }
+		SelectionGroup 2330 { "" }
+		SelectionGroup 2331 { "" }
+		SelectionGroup 2332 { "" }
+		SelectionGroup 2334 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1533,6 +1577,14 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 619 ) ( 192 ) } // patch (Patch)
 		Node { ( 0 620 ) ( 192 ) } // patch (Patch)
 		Node { ( 0 621 ) ( 192 ) } // patch (Patch)
+		Node { ( 0 626 ) ( 2330 ) } // patch (Patch)
+		Node { ( 0 627 ) ( 2330 ) } // patch (Patch)
+		Node { ( 0 631 ) ( 2331 ) } // patch (Patch)
+		Node { ( 0 633 ) ( 2331 ) } // patch (Patch)
+		Node { ( 0 638 ) ( 2332 ) } // patch (Patch)
+		Node { ( 0 639 ) ( 2332 ) } // patch (Patch)
+		Node { ( 0 651 ) ( 2334 ) } // patch (Patch)
+		Node { ( 0 652 ) ( 2334 ) } // patch (Patch)
 		Node { ( 72 ) ( 193 ) } // entity (atdm_streetlamp_round_02_lit_1)
 		Node { ( 73 ) ( 12 ) } // entity (func_static_4)
 		Node { ( 74 ) ( 12 ) } // entity (func_static_5)
@@ -1679,8 +1731,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 221 ) ( 198 ) } // entity (func_emitter_5)
 		Node { ( 222 ) ( 196 ) } // entity (func_emitter_6)
 		Node { ( 223 ) ( 198 ) } // entity (atdm_streetlamp_round_02_lit_6)
-	}
-	SelectionSets
-	{
+		Node { ( 224 ) ( 2328 ) } // entity (func_static_2124)
+		Node { ( 225 ) ( 2328 ) } // entity (light_33)
+		Node { ( 226 ) ( 2328 ) } // entity (light_18)
+		Node { ( 227 ) ( 2328 ) } // entity (func_emitter_13)
 	}
 }
