@@ -1,0 +1,12 @@
+
+
+void openTreasuryWindow(entity zone)
+{
+    $atdm_mover_door_sliding_2.Open();
+}
+
+
+void main()
+{
+	sys.waitFrame();
+}

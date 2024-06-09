@@ -16,5 +16,14 @@ skin fs_set01_railing_sandstone_largeblocks01
     textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/stone/brick/sandstone_largeblocks01
 }
 
+skin fs_set01_railing_wtable1b
+{
+    model models/darkmod/architecture/handrails/set01_railing_seg1.lwo
+    model models/darkmod/architecture/handrails/set01_railing_single.lwo
+    
+    textures/darkmod/wood/boards/wood_brown_dull01       textures/darkmod/wood/boards/tiling_1d/wtable1b
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/tiling_1d/wtable1b
+}
+
 
 
