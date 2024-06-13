@@ -1,0 +1,496 @@
+wpainting01
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting01_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting01_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting02
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting02_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting02_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+
+wpainting03
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting03_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting03_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting04
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting04_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting04_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+
+}
+
+wpainting05
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting05_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting05_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting06
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting06_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting06_d
+	bumpmap		models/darkmod/props/textures/painting05_local
+	specularmap	models/darkmod/props/textures/painting05_s
+
+
+}
+
+wpainting07
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting07_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting07_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+
+}
+
+wpainting08
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting08_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting08_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+
+}
+
+wpainting09
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting09_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting09_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+
+}
+
+wpainting10
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting10_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting10_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting11
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting11_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting11_d
+	bumpmap		models/darkmod/props/textures/painting05_local
+	specularmap	models/darkmod/props/textures/painting05_s
+
+
+}
+
+wpainting12
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting12_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting12_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting13
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting13_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting13_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting14
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting14_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting14_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting15
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting15_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting15_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting16
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting16_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting16_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting17
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting17_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting17_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting18
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting18_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting18_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting19
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting19_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting19_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting20
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting20_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting20_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting21
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting21_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting21_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+
+}
+
+wpainting22
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting22_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting22_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting23
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting23_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting23_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting24
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting24_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting24_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting25
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting25_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting25_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+}
+
+wpainting26
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting26_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting26_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting27
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting27_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting27_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting28
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting28_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting28_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting29
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting29_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting29_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting30
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting30_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting30_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting31
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting31_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting31_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting32
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting32_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting32_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+}
+
+wpainting33
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting33_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting33_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+
+
+wpainting34
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting34_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting34_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting35
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting35_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting35_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting36
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting36_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting36_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+
+}
+
+wpainting37
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting37_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting37_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}
+
+wpainting38
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting38_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting38_d
+	bumpmap		models/darkmod/props/textures/painting01_local
+	specularmap	models/darkmod/props/textures/painting01_s
+
+}
+
+wpainting39
+{
+
+	qer_editorimage	models/darkmod/props/textures/wpainting39_d
+	wood
+
+	diffusemap	models/darkmod/props/textures/wpainting39_d
+	bumpmap		models/darkmod/props/textures/painting06_local
+	specularmap	models/darkmod/props/textures/painting06_s
+
+}

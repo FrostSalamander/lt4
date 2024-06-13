@@ -1,0 +1,274 @@
+skin braeden_painting01
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting01
+painting01_m 	braeden_painting01
+painting01 		braeden_painting01
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting02
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting02
+painting01_m 	braeden_painting02
+painting01 		braeden_painting02
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting03
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting03
+painting01_m 	braeden_painting03
+painting01 		braeden_painting03
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting04
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting04
+painting01_m 	braeden_painting04
+painting01 		braeden_painting04
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting05
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting05
+painting01_m 	braeden_painting05
+painting01 		braeden_painting05
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting06
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting06
+painting01_m 	braeden_painting06
+painting01 		braeden_painting06
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting07
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting07
+painting01_m 	braeden_painting07
+painting01 		braeden_painting07
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting08
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting08
+painting01_m 	braeden_painting08
+painting01 		braeden_painting08
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting09
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting09
+painting01_m 	braeden_painting09
+painting01 		braeden_painting09
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting10
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting10
+painting01_m 	braeden_painting10
+painting01 		braeden_painting10
+tdm_painting_empty textures/common/nodraw
+}
+
+skin braeden_painting11
+{
+model models/darkmod/decorative/wall/painting01.lwo
+model models/darkmod/decorative/wall/painting01_m.lwo
+model models/darkmod/decorative/wall/painting01_l.lwo
+model models/darkmod/decorative/wall/painting01_tearable.lwo
+model models/darkmod/decorative/wall/painting01_m_tearable.lwo
+model models/darkmod/decorative/wall/painting01_l_tearable.lwo
+model models/darkmod/decorative/wall/painting01_s.ase
+model models/darkmod/decorative/wall/painting01_s_tearable.ase
+model models/darkmod/decorative/wall/painting_round.ase
+model models/darkmod/decorative/wall/painting_round_tearable.ase
+model models/darkmod/decorative/wall/painting_round_s.ase
+model models/darkmod/decorative/wall/painting_round_s_tearable.ase
+model models/darkmod/decorative/wall/painting_minature.ase
+model models/darkmod/decorative/painting_desktop_horizontal.ase
+model models/darkmod/decorative/painting_desktop_vertical.ase
+model models/darkmod/decorative/wall/ornate_frame01.lwo
+
+painting01_l 	braeden_painting11
+painting01_m 	braeden_painting11
+painting01 		braeden_painting11
+tdm_painting_empty textures/common/nodraw
+}

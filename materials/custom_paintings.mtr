@@ -1,0 +1,133 @@
+braeden_painting01
+{
+		// credits: Public Domain - "Winter Moated Castle with a Returning Hunter," Carl Hilgers (1818 - 1890)
+		
+		qer_editorimage	models/darkmod/props/textures/braeden_painting01_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting01_d
+		bumpmap			models/darkmod/props/textures/painting03_local
+		specularmap		models/darkmod/props/textures/painting01_s
+}
+
+braeden_painting02
+{
+		// credits: Public Domain - "Forest Snow Scene," Oswald Richter, 19th century
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting02_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting02_d
+		bumpmap			models/darkmod/props/textures/painting04_local
+		specularmap		models/darkmod/props/textures/painting02_s
+}
+
+braeden_painting03
+{
+		// credits: Public Domain - "Gretton, Northamptonshire," Charles Leaver (1824–1888)
+		
+      	qer_editorimage	models/darkmod/props/textures/braeden_painting03_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting03_d
+		bumpmap			models/darkmod/props/textures/painting04_local
+		specularmap		models/darkmod/props/textures/painting03_s	
+}
+
+braeden_painting04
+{
+		// credits: Public Domain - "Huntsmen by the Fire," Anders Andersen Lundby (1841-1923)
+		
+      	qer_editorimage	models/darkmod/props/textures/braeden_painting04_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting04_d
+		bumpmap			models/darkmod/props/textures/painting04_local
+		specularmap		models/darkmod/props/textures/painting04_s	
+}
+
+
+braeden_painting05
+{
+		// credits: Public Domain - "The Northern Lights," Sydney Laurence
+		
+        	qer_editorimage	models/darkmod/props/textures/braeden_painting02_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting05_d
+		bumpmap			models/darkmod/props/textures/painting05_local
+		specularmap		models/darkmod/props/textures/painting05_s
+}
+
+braeden_painting06
+{
+		// credits: Public Domain - "Winterlandschaft bei Nacht," Richard August Zimmermann, 1863
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting06_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting06_d
+		bumpmap			models/darkmod/props/textures/painting06_local
+		specularmap		models/darkmod/props/textures/painting05_s
+}
+
+braeden_painting07
+{
+		// credits: Public Domain - "The Winter," Alexandre Calame, 1851
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting07_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting07_d
+		bumpmap			models/darkmod/props/textures/painting07_local
+		specularmap		models/darkmod/props/textures/painting07_s
+}
+
+
+braeden_painting08
+{
+		// credits: Public Domain - "Winter Evening in Dresden," Knud Baade, 1845
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting08_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting08_d
+		bumpmap			models/darkmod/props/textures/painting07_local
+		specularmap		models/darkmod/props/textures/painting08_s
+}
+
+braeden_painting09
+{
+		// credits: Public Domain - "View of the Monument to Peter the Great in Senate Square, St. Petersburg," Vasilij Ivanovic Surikov, 1870
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting09_ed
+		wood
+		
+        diffusemap	models/darkmod/props/textures/braeden_painting09_d
+		bumpmap		models/darkmod/props/textures/painting06_local
+		specularmap	models/darkmod/props/textures/painting06_s
+}
+
+braeden_painting10
+{
+		// credits: Public Domain - "Church in Winter Landscape," Sophus Jacobsen (1833-1912)
+		
+       	qer_editorimage	models/darkmod/props/textures/braeden_painting10_ed
+		wood
+		
+        diffusemap  models/darkmod/props/textures/braeden_painting10_d
+		bumpmap		models/darkmod/props/textures/painting06_local
+		specularmap	models/darkmod/props/textures/painting06_s
+}
+
+braeden_painting11
+{
+		// credits: Public Domain - "When the West with Evening Glows," Joseph Farquharson, 1901
+		
+      	qer_editorimage	models/darkmod/props/textures/braeden_painting11_ed
+		wood
+		
+        diffusemap      models/darkmod/props/textures/braeden_painting11_d
+		bumpmap			models/darkmod/props/textures/painting04_local
+		specularmap		models/darkmod/props/textures/painting03_s	
+}

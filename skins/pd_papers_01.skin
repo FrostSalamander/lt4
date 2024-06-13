@@ -1,0 +1,255 @@
+skin paper_iris_vortex
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_vortex"
+}
+
+skin paper_iris_altars
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_altars"
+}
+
+skin paper_iris_spiral
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_spiral"
+}
+
+skin paper_iris_luna
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_luna"
+}
+
+skin paper_iris_realm1
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_realm1"
+}
+
+skin paper_iris_realm2
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_realm2"
+}
+
+skin paper_iris_sorceress
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_sorceress"
+}
+
+skin paper_iris_dragon
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_dragon"
+}
+
+skin paper_iris_theatrum
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_theatrum"
+}
+
+skin paper_iris_doctor
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_doctor"
+}
+
+skin paper_iris_doctorold
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_doctorold"
+}
+
+skin paper_iris_deaths
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_deaths"
+}
+
+skin paper_iris_alphabet
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_alphabet"
+}
+
+skin paper_iris_beast
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_beast"
+}
+
+skin paper_iris_cosmography
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_cosmography"
+}
+
+skin paper_iris_bact1
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_bact1"
+}
+
+skin paper_iris_bact2
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_bact2"
+}
+
+skin paper_iris_bats
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_bats"
+}
+
+skin paper_iris_map01
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_map01"
+}
+
+skin paper_iris_map02
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_map02"
+}
+
+skin paper_iris_map03
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_map03"
+}
+
+skin paper_iris_monsters
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_monsters"
+}
+
+skin paper_iris_colonies
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_colonies"
+}
+
+skin paper_iris_music01
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_music01"
+}
+
+skin paper_iris_music02
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_music02"
+}
+
+skin paper_iris_music03
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_music03"
+}
+
+skin paper_iris_levels
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_levels"
+}
+
+skin paper_iris_westernempire
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/darkmod/decals/papers/map_western_empire01"
+}
+
+skin paper_iris_occulus
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_occulus"
+}
+
+skin paper_iris_mechanism1
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_mechanism1"
+}
+
+skin paper_iris_mechanism2
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_mechanism2"
+}
+
+skin paper_iris_ledger1
+{
+	model "models/darkmod/readables/paper2.lwo"
+	model "models/darkmod/readables/paper3.lwo"
+
+	"textures/darkmod/decals/papers/map_western_empire02" "textures/readables/paper_ledger1"
+}

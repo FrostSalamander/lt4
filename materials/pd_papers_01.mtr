@@ -1,0 +1,365 @@
+textures/readables/paper_altars
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_altars
+
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_vortex
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_vortex
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_spiral
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_spiral
+
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_luna
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_luna
+
+    bumpmap    _flat
+	
+}
+
+textures/readables/paper_realm1
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_realm1
+
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_realm2
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_realm2
+
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_sorceress
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_sorceress
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_dragon
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_dragon
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_theatrum
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_theatrum
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_doctor
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_doctor
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_doctorold
+{
+
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_doctorold
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_deaths
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_deaths
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_alphabet
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_alphabet
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_beast
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_beast
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_cosmography
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_cosmography
+
+}
+
+textures/readables/paper_bact1
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_bact1
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_bact2
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_bact2
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_bats
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_bats
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_map01
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_map01
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_map02
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_map02
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_map03
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_map03
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_map04
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_map04
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_map05
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_map05
+
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_monsters
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_monsters
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_colonies
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_colonies
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_music01
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_music01
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_music02
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_music02
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_music03
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_music03
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_levels
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_levels
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_occulus
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_occulus
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_mechanism1
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_mechanism1
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_mechanism2
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_mechanism2
+    bumpmap    _flat
+
+}
+
+textures/readables/paper_ledger1
+{
+  surftype15
+  description "paper"
+
+     diffusemap  	models/darkmod/props/textures/paper_ledger1
+    bumpmap    _flat
+
+}

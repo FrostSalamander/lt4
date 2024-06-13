@@ -1,0 +1,870 @@
+skin iris_painting_preist
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting01"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_wolf
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting02"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_nightscape01
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting03"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_nightscape02
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting05"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_nightscape03
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting27"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_nightscape04
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting29"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_creation
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting04"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_dreamers
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting08"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_rowboat
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting06"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_crypt
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting07"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_sisters
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting09"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+
+skin iris_painting_dawninterior
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting10"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_duskinterior
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting11"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_hart
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting12"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_invention
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting13"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_artist
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting14"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_vampire
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting15"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_cityscapeA
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting16"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_cityscapeB
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting17"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_cityscapeC
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting18"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_cityscapeD
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting23"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_nightmare
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting19"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+
+skin iris_painting_nightreverie
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting20"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_beheading
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting21"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_girlwithskull
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting22"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_seascapenight
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting24"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_precursorruin
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting25"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_redlady
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting26"
+	"tdm_painting_empty" "textures/common/nodraw"
+
+}
+
+skin iris_painting_loveletter
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting28"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_blackbay
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting30"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_watchman
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting31"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_warrior
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting32"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_northdale
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting33"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_corsica
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_horizontal.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting34"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_peeledorange
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting35"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_snowedinn
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting36"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_moonlithouse
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting37"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_council
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting38"
+	"tdm_painting_empty" "textures/common/nodraw"
+}
+
+skin iris_painting_vase
+	
+{	
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_s.ase"
+	model "models/darkmod/decorative/wall/painting01_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round.ase"
+	model "models/darkmod/decorative/wall/painting_round_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_round_s.ase"
+	model "models/darkmod/decorative/wall/painting_round_s_tearable.ase"
+	model "models/darkmod/decorative/wall/painting_minature.ase"
+	model "models/darkmod/decorative/painting_desktop_vertical.ase"
+	model "models/darkmod/decorative/wall/ornate_frame01.lwo"
+
+	"painting01" "wpainting39"
+	"tdm_painting_empty" "textures/common/nodraw"
+}

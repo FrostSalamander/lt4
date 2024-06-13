@@ -1,0 +1,55 @@
+skin iris_banner07
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner07"
+}
+
+skin iris_banner08
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner08"
+}
+
+skin iris_banner09
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner09"
+}
+
+skin iris_banner10
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner10"
+}
+
+skin iris_banner11
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner11"
+}
+
+skin iris_banner12
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner12"
+}
+
+skin iris_banner13
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner13"
+}
+
+skin iris_banner14
+{
+	model "models/darkmod/decorative/wall/banner1.lwo"
+	model "models/darkmod/decorative/wall/banner2.lwo"
+	"banner01" "welli_banner14"
+}

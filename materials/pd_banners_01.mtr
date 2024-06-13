@@ -1,0 +1,145 @@
+welli_banner07
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner7_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner08
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner8_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner09
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner9_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner10
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner10_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner11
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner11_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner12
+{
+
+	surftype15
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner12_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/wellibanner12_d
+        rgb         0.15 * parm11
+    }
+}
+
+welli_banner13
+{
+
+	surftype15	
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner13_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+
+}
+
+welli_banner14
+{
+
+	surftype15	
+	description "cloth"
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/wellibanner14_d
+		alphaTest 0.5
+	}
+
+	bumpmap		models/darkmod/props/textures/banner3_local
+	specularmap	models/darkmod/props/textures/banner3_s
+}
