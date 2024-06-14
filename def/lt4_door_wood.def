@@ -1,0 +1,7 @@
+entityDef lt4:door_wood
+{
+	"inherit"         "atdm:mover_door" 
+
+    "snd_open"        "chest_wood_open"
+    "snd_close"       "chest_wood_close"
+}
