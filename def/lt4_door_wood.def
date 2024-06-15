@@ -4,4 +4,6 @@ entityDef lt4:door_wood
 
     "snd_open"        "chest_wood_open"
     "snd_close"       "chest_wood_close"
+
+    "move_time"       "1"
 }
