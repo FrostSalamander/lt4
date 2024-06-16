@@ -1,0 +1,17 @@
+skin window_bars_curved_iron_flat
+{
+    model models/darkmod/architecture/fencing/window_bars_curved_48x80.ase
+    model models/darkmod/architecture/fencing/window_bars_48x80.ase
+    model models/map_specific/scaled/window_bars_48x80_scaled1.ase
+
+    textures/darkmod/metal/flat/brush_steel_scratched01_dark textures/darkmod/metal/flat/iron_flat
+}
+
+skin window_bars_curved_iron_rough
+{
+    model models/darkmod/architecture/fencing/window_bars_curved_48x80.ase
+    model models/darkmod/architecture/fencing/window_bars_48x80.ase
+    model models/map_specific/scaled/window_bars_48x80_scaled1.ase
+
+    textures/darkmod/metal/flat/brush_steel_scratched01_dark textures/darkmod/metal/flat/iron_rough
+}
