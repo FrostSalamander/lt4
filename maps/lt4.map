@@ -33743,9 +33743,9 @@ brushDef3
 {
 "classname" "atdm:lamp_oil_wall_dirtymetal_lit"
 "name" "atdm_lamp_oil_wall_dirtymetal_lit_4"
-"origin" "1344 -992.75 -480"
+"origin" "1428 -992.75 -480"
 "rotation" "0 1 0 -1 0 0 0 0 1"
-"set light_radius on flame" "96 96 96"
+"set light_radius on flame" "64 64 128"
 }
 // entity 637
 {
@@ -33945,4 +33945,61 @@ brushDef3
 ( -1 0 0 -8 ) ( ( 0.02083333395421505 0.005208333488553762 294.8333435058594 ) ( 0 0.01289062481373549 200.5523376464844 ) ) "textures/darkmod/wood/boards/tiling_1d/gen_old_boards" 0 0 0
 }
 }
+}
+// entity 638
+{
+"classname" "atdm:lamp_oil_wall_dirtymetal_lit"
+"name" "atdm_lamp_oil_wall_dirtymetal_lit_5"
+"origin" "1260 -992.75 -480"
+"rotation" "0 1 0 -1 0 0 0 0 1"
+"set light_radius on flame" "64 64 128"
+}
+// entity 639
+{
+"classname" "func_static"
+"name" "func_static_451"
+"model" "func_static_451"
+"origin" "1344 -1072 -568"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -0.5 ) ( ( 0.008928571428571438 0 -0.9285717010498331 ) ( 0 0.009615384615384623 0.02885202261118991 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+( 0 1 0 -56 ) ( ( 0.004807692307692315 0 -0.03846168518069959 ) ( 0 0.25 -3.999999999998067 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+( 1 0 0 -104 ) ( ( 0.008928571428571425 0 -0.9285717010498331 ) ( 0 0.25 -3.999999999999773 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+( 0 0 -1 0 ) ( ( 0.008928571428571438 0 -0.9285717010498189 ) ( 0 0.009615384615384623 0.9615383148193359 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+( 0 -1 0 -56 ) ( ( 0.004807692307692311 0 -0.9615402221679119 ) ( 0 0.25 -3.999999999998181 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+( -1 0 0 -104 ) ( ( 0.008928571428571425 0 -0.07142639160151987 ) ( 0 0.25 -4.000000000000227 ) ) "textures/common/tdm_nodrawsolid_carpet" 0 0 0
+}
+}
+// primitive 1
+{
+patchDef2
+{
+"textures/darkmod/carpet/rugs/ornate_red_tan01_HD"
+( 3 3 0 0 0 )
+(
+( ( 1240 -1128 -567.875 -2.724783794150198e-07 256.0000001467191 ) ( 1240 -1072 -567.875 0.4999997275216206 256.0000001467191 ) ( 1240 -1016 -567.875 0.9999997275216206 256.0000001467191 ) )
+( ( 1344 -1128 -567.875 -2.724783794150198e-07 256.5000001467191 ) ( 1344 -1072 -567.875 0.4999997275216206 256.5000001467191 ) ( 1344 -1016 -567.875 0.9999997275216206 256.5000001467191 ) )
+( ( 1448 -1128 -567.875 -2.724783794150198e-07 257.0000001467191 ) ( 1448 -1072 -567.875 0.4999997275216206 257.0000001467191 ) ( 1448 -1016 -567.875 0.9999997275216206 257.0000001467191 ) )
+)
+}
+}
+}
+// entity 640
+{
+"classname" "func_static"
+"name" "func_static_452"
+"origin" "1340 -1013 -568"
+"model" "models/darkmod/furniture/seating/leather_sofa_001.lwo"
+"skin" "leather_sofa_dark"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}
+// entity 641
+{
+"classname" "func_static"
+"name" "func_static_453"
+"origin" "1416 -1012 -568"
+"model" "models/darkmod/furniture/tables/endtable_round01.lwo"
+"rotation" "1 0 0 0 1 0 0 0 1"
 }

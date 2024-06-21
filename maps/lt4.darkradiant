@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "136802" } 
-		KeyValue { "LastCameraAngle" "-17.2 348.2 0" } 
-		KeyValue { "LastCameraPosition" "1403 -1073.21 -476.215" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/halftimber_plaster" } 
+		KeyValue { "EditTimeInSeconds" "137384" } 
+		KeyValue { "LastCameraAngle" "-13.2 85.2 0" } 
+		KeyValue { "LastCameraPosition" "1326.43 -1149.1 -479.797" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/tdm_nodrawsolid_carpet" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 136802 }
+		TotalSecondsEdited { 137384 }
 	}
 	SelectionSets
 	{
@@ -619,6 +619,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 3218 { "" }
 		SelectionGroup 3222 { "" }
 		SelectionGroup 3223 { "" }
+		SelectionGroup 3225 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -2193,6 +2194,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 637 2262 ) ( 3223 ) } // brush (Brush)
 		Node { ( 637 2263 ) ( 3223 ) } // brush (Brush)
 		Node { ( 637 2264 ) ( 3223 ) } // brush (Brush)
+		Node { ( 639 2265 ) ( 3225 ) } // brush (Brush)
+		Node { ( 639 2266 ) ( 3225 ) } // patch (Patch)
 	}
 	Layers
 	{
@@ -5116,5 +5119,11 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_lamp_oil_wall_dirtymetal_lit_5)
+		Node { 0 } // entity (func_static_451)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_452)
+		Node { 0 } // entity (func_static_453)
 	}
 }
