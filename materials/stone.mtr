@@ -1,0 +1,11 @@
+textures/darkmod/stone/sculpted/tiling_1d/trim_darkstone_supports_grey
+{
+
+    stone
+
+    qer_editorimage     textures/darkmod/stone/sculpted/trim_darkstone_supports_grey_ed
+    diffusemap          textures/darkmod/stone/sculpted/trim_darkstone_supports_grey
+    bumpmap             textures/darkmod/stone/sculpted/trim_darkstone_supports_local
+
+
+}
