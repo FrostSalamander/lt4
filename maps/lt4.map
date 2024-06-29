@@ -18927,7 +18927,7 @@ patchDef2
 brushDef3
 {
 ( 0 0 1 296 ) ( ( 0.009765625 0 5.0390625 ) ( 0 0.009765625 3.28125 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
-( 0 -1 0 -1088 ) ( ( 0.009765625 0 8.515625 ) ( 0 0.009765625 -8.881784197001252e-15 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
+( 0 -1 0 -1088 ) ( ( 0.0048828125 0 -7.3828125 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( 0 0 -1 -360 ) ( ( 0.009765625 0 5.0390625 ) ( 0 0.009765625 -3.359375 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( 1 0 0 -408 ) ( ( 0.009765625 0 5.039062499999998 ) ( 0 0.009765625 -3.90625 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( -1 0 0 -48 ) ( ( 0.009765625 0 5.2734375 ) ( 0 0.009765625 -1.77635683940025e-14 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
@@ -19826,7 +19826,7 @@ brushDef3
 ( 0 0 1 88 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 -0.15625 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( 0 1 0 936 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( 1 0 0 -424 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
-( 0 -1 0 -1088 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
+( 0 -1 0 -1088 ) ( ( 0.0048828125 0 -7.3828125 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( -1 0 0 408 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 ( 0 0 -1 -408 ) ( ( 0.0048828125 0 0 ) ( 0 0.0048828125 0 ) ) "textures/darkmod/stone/brick/sandstone_largeblocks01" 0 0 0
 }
