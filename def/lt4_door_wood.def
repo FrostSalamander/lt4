@@ -7,3 +7,12 @@ entityDef lt4:door_wood
 
     "move_time"       "1"
 }
+
+entityDef lt4:door_wood_latched
+{
+	"inherit"         "lt4:door_wood"
+
+    "snd_locked"      "door_locked_03"
+    "snd_lock"        "silence"
+    "snd_unlock"      "silence"
+}
