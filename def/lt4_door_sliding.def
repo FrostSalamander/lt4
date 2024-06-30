@@ -1,0 +1,10 @@
+entityDef lt4:door_sliding
+{
+	"inherit"         "atdm:mover_door_sliding" 
+
+    "snd_move"        "frob_drawer_open"
+    "snd_open"        "silence"
+    "snd_close"       "chest_wood_close"
+
+    "move_time"       "1"
+}
