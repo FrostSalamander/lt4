@@ -1,0 +1,29 @@
+// base door with non-default sounds and quicker move time
+entityDef lt4:door
+{
+	"inherit"         "atdm:mover_door" 
+
+    "move_time"       "1"
+
+    "snd_open"        "door_open_04"
+    "snd_close"       "door_shut_05"
+}
+
+// use for thinner doors/windows with 'lighter' open/close sound
+entityDef lt4:door_wood
+{
+	"inherit"         "lt4:door" 
+
+    "snd_open"        "chest_wood_open"
+    "snd_close"       "chest_wood_close"
+}
+
+// sounds configured for latched doors
+entityDef lt4:door_wood_latched
+{
+	"inherit"         "lt4:door_wood"
+
+    "snd_locked"      "door_locked_03"
+    "snd_lock"        "silence"
+    "snd_unlock"      "silence"
+}
