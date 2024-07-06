@@ -32,7 +32,7 @@ skin fs_set01_railing_rough_wood_large_brown
     
     textures/darkmod/wood/boards/wood_brown_dull01       textures/darkmod/wood/boards/rough_wood_large_brown
     textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/rough_wood_large_brown
-}44
+}
 
 skin fs_set01_railing_rough_wood_darkbrown_dull
 {
@@ -43,4 +43,11 @@ skin fs_set01_railing_rough_wood_darkbrown_dull
     textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/rough_wood_darkbrown_dull
 }
 
-
+skin fs_set01_railing_rough_wood_sand
+{
+    model models/darkmod/architecture/handrails/set01_railing_seg1.lwo
+    model models/darkmod/architecture/handrails/set01_railing_single.lwo
+    
+    textures/darkmod/wood/boards/wood_brown_dull01       textures/darkmod/wood/boards/rough_wood_sand
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/rough_wood_sand
+}
