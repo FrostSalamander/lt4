@@ -1,0 +1,28 @@
+textures/water_source/fs_water_stream_dark
+{
+
+	qer_editorimage textures/water_source/w_c_ed
+	discrete
+	nonsolid
+	water
+	twosided
+	translucent
+
+	{
+		vertexProgram HeatHazeWithMaskAndDepth.vfp
+		vertexParm 0 0, time * ((( parm5 + 0.1) - (( parm5 || 0) * 0.1)) * 3)
+		vertexParm 1 ((( parm6 + 1.5) - (( parm6 || 0) * 1.5)) * 4.7)
+		fragmentProgram HeatHazeWithMaskAndDepth.vfp
+		fragmentMap 0 _currentRender
+		fragmentMap 1 textures/sfx/vp1
+		fragmentMap 2 textures/water_source/vp_water
+		fragmentMap 3 _currentDepth
+	}
+
+	{
+		blend blend
+        //map textures/darkmod/sfx/black_matt
+		map _black
+		alpha 0.95
+	}
+}
