@@ -1,0 +1,8 @@
+lights/window_template_5
+{
+    {
+        map lights/window_template_5
+        colored
+        zeroClamp
+    }
+}
