@@ -1,0 +1,15 @@
+textures/darkmod/window/fs_roundtop_diamond_pattern01_grey_moonlit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage	textures/darkmod/window/roundtop_diamond_pattern01_grey_ed
+	diffusemap	textures/darkmod/window/roundtop_diamond_pattern01_grey
+	specularmap	textures/darkmod/window/roundtop_diamond_pattern01_s
+	bumpmap		textures/darkmod/window/roundtop_diamond_pattern01_local
+	{
+		blend	add
+		map		textures/darkmod/window/roundtop_diamond_pattern01_grey
+		rgb		.25
+	}
+}
