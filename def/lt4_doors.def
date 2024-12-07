@@ -21,7 +21,7 @@ entityDef lt4:door_wood
 // sounds configured for latched doors
 entityDef lt4:door_wood_latched
 {
-	"inherit"         "lt4:door_wood"
+	"inherit"         "lt4:door"
 
     "snd_locked"      "door_locked_03"
     "snd_lock"        "silence"
