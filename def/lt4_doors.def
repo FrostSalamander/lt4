@@ -26,4 +26,6 @@ entityDef lt4:door_wood_latched
     "snd_locked"      "door_locked_03"
     "snd_lock"        "silence"
     "snd_unlock"      "silence"
+
+    "locked"          "1"
 }

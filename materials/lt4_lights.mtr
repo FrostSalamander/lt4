@@ -17,3 +17,12 @@ lights/metal_diamond_pattern3_half
         zeroClamp
     }
 }
+
+lights/tdm_pointedtop_big01_fs
+{
+	{
+		forceHighQuality
+		map		textures/lights/tdm_pointedtop_big01_fs
+		zeroClamp
+	}
+}
