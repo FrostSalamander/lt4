@@ -1,3 +1,4 @@
+// Material and texture credit to Grayman (WS1)
 lights/window_template_5
 {
     {
@@ -7,6 +8,7 @@ lights/window_template_5
     }
 }
 
+// Frost_Salamander materials
 lights/metal_diamond_pattern3_half
 {
     {
