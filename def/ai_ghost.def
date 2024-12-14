@@ -1,0 +1,12 @@
+entityDef lt4:ai_ghost
+{
+	"inherit"         "atdm:ai_townsfolk_female" 
+
+    "acuity_aud"       "0"
+    "acuity_vis"       "0"
+    "canSearch"        "0"
+    "def_vocal_set"    "atdm:ai_vocal_set_mute"
+    
+    "snd_open"        "door_open_04"
+    "snd_close"       "door_shut_05"
+}
