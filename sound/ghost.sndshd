@@ -1,0 +1,15 @@
+lt4_ghost_hmm
+{
+	editor_displayFolder	voices/wench
+	volume 0
+	 
+	sound/voices/maiden/hmm1.ogg
+}
+
+lt4_ghost_vinegar
+{
+	editor_displayFolder	voices/wench
+	volume 0
+	 
+	sound/voices/maiden/idle04.ogg
+}
