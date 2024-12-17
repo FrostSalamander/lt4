@@ -1,0 +1,10 @@
+ textures/darkmod/decals/signs/speckled_trout
+ {
+ 	DECAL_MACRO
+ 	noimpact
+ 	
+ 	{
+ 		blend blend
+ 		map textures/darkmod/decals/signs/speckled_trout
+ 	}
+ }
