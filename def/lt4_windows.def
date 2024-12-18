@@ -1,0 +1,17 @@
+entityDef lt4:window
+{
+	"inherit"         "atdm:mover_door" 
+
+    "move_time"       "1"
+
+    "snd_open"        "door_open_04"
+    "snd_close"       "door_shut_05"
+}
+
+entityDef lt4:window_metal
+{
+	"inherit"         "lt4:window" 
+
+    "snd_open"        "frob_chest_metal_open"
+    "snd_close"       "frob_chest_metal_close"
+}
