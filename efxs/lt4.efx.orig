@@ -1,8 +1,1 @@
 Version 2
-
-eaxreverb "location_office_street" {
-  preset CASTLE_COURTYARD
-}
-eaxreverb "location_office_basement" {
-  preset FACTORY_SMALLROOM
-}
