@@ -1,0 +1,7 @@
+skin fs_beam_end03_rope_grey
+{
+    model models/darkmod/architecture/supports/beam_end03_rope.lwo
+    
+    textures/darkmod/wood/boards/rough_wood_darkbrown_dull          textures/darkmod/wood/boards/rough_wood_grey
+    textures/darkmod/wood/panels/wood_brown_dull01_panel    textures/darkmod/wood/boards/rough_wood_sand
+}
