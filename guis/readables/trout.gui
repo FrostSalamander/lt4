@@ -14,7 +14,7 @@ windowDef Contents {
     windowDef backgroundImage {
         WORLD_SCALE
         rect -37, -10, 370, 420
-        background "guis/assets/readables/oldparchment"
+        background "guis/assets/readables/trout_oldparchment"
         matcolor 1, 1, 1, 0
     }
 

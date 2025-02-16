@@ -15,3 +15,20 @@ readables/lt4/letter_office
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/trout_paper
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/trout.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
