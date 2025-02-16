@@ -1,0 +1,94 @@
+#define CONTENTS_WIDTH  300
+#define CONTENTS_HEIGHT 400
+
+// Unnecessary for this readable.
+//#define CONTENTS_ORIGIN_X 150
+//#define CONTENTS_ORIGIN_Y 200
+
+#include "guis/readables/readable.guicode"
+
+windowDef Contents {
+    WORLD_SCALE
+    noclip 1
+
+    windowDef backgroundImage {
+        WORLD_SCALE
+        rect -37, -10, 370, 420
+        background "guis/assets/readables/oldparchment"
+        matcolor 1, 1, 1, 0
+    }
+
+    windowDef title {
+        WORLD_SCALE
+        rect 30, 40, 240, 40
+        forecolor 0, 0, 0, 0
+        font "fonts/treasure_map"
+        text "<title>"
+        textscale 0.8
+    }
+
+    windowDef body {
+        WORLD_SCALE
+        rect 30, 100, 240, 270
+        forecolor 0, 0, 0, 0
+        font "fonts/jd_hand"
+        text "<body>"
+        textscale 0.22
+    }
+
+    onTime 0 {
+        if ("gui::worldDisplay" == 1)
+        {
+            set "title::forecolor" "0 0 0 1";
+            set "body::forecolor" "0 0 0 1";
+        }
+        set "title::text" "$gui::title";
+        set "body::text" "$gui::body";
+    }
+}
+
+windowDef BackgroundShow {
+	notime 1
+	onTime 0 {
+		set "backgroundImage::matcolor" "1 1 1 1";
+	}
+}
+
+windowDef BackgroundHide {
+	notime 1
+	onTime 0 {
+		set "backgroundImage::matcolor" "1 1 1 0";
+	}
+}
+
+windowDef BackgroundFadeIn {
+	notime 1
+	onTime 0 {
+		transition "backgroundImage::matcolor" "1 1 1 0" "1 1 1 1" READABLE_FADE_TIME;
+	}
+}
+
+windowDef BackgroundFadeOut {
+	notime 1
+	onTime 0 {
+		transition "backgroundImage::matcolor" "1 1 1 1" "1 1 1 0" READABLE_FADE_TIME;
+	}
+}
+
+windowDef ContentsFadeIn {
+    notime 1
+    onTime 0 {
+        transition "title::forecolor"          "0 0 0 0" "0 0 0 1" READABLE_FADE_TIME;
+        transition "body::forecolor"           "0 0 0 0" "0 0 0 1" READABLE_FADE_TIME;
+    }
+}
+
+windowDef ContentsFadeOut {
+    notime 1
+    onTime 0 {
+        transition "title::forecolor"          "0 0 0 1" "0 0 0 0" READABLE_FADE_TIME;
+        transition "body::forecolor"           "0 0 0 1" "0 0 0 0" READABLE_FADE_TIME;
+    }
+}
+
+#include "guis/readables/readable.guicode"
