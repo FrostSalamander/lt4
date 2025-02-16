@@ -1,0 +1,17 @@
+readables/lt4/letter_office
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"lootennant misster brommitch is cuming with us. bring 500 gold or else hes ded. Meet us at Fishend."
+		""
+		"  JK"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
