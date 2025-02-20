@@ -32,3 +32,28 @@ readables/lt4/trout_paper
 	"gui_page1"	: "guis/readables/trout.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/office_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		" I saw her again! Who is she? That place is creepy as hell.  There is only supposed to be the caretaker there."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
