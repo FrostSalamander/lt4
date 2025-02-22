@@ -6,3 +6,16 @@ skin fs_walllight_iron
     tdm_wallight2_noshadows       textures/darkmod/metal/flat/iron_flat
     tdm_wallight2                 textures/darkmod/metal/flat/iron_flat
 }
+
+skin fs_walllight_iron_unlit
+{
+
+    model models/darkmod/lights/non-extinguishable/wallight_3_unattached.lwo
+    model models/map_specific/lamp_holder.ase
+
+    tdm_wallight2_noshadows       textures/darkmod/metal/flat/iron_flat
+    tdm_wallight2                 textures/darkmod/metal/flat/iron_flat
+	tdm_lantern_window2         tdm_lantern_window3_unlit
+
+
+}
