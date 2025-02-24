@@ -1,0 +1,10 @@
+ textures/darkmod/decals/formula
+ {
+ 	DECAL_MACRO
+ 	noimpact
+ 	
+ 	{
+ 		blend blend
+ 		map textures/darkmod/decals/formula
+ 	}
+ }
