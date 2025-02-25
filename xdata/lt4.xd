@@ -57,3 +57,37 @@ readables/lt4/office_note
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/econ_journal
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+		"GDP = C + G + I + NX"
+		""
+		"or"
+		""
+		"GDP = W + R + P"
+		""
+		"AC = TC / TQ"
+		"AR = TR / TP"
+		"P = TR - TC"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
