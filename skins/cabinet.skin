@@ -1,0 +1,10 @@
+fs_cabinet1_old
+{
+
+	model "models/map_specific/scaled/cabinet1_filing_scaled1.ase"
+    model "models/map_specific/scaled/cabinet1_filing_scaled3.ase"
+
+	"cabinet1" "tdm_cabinet1_old"
+
+
+}

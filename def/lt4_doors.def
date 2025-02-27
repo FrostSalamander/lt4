@@ -18,6 +18,14 @@ entityDef lt4:door_wood
     "snd_close"       "chest_wood_close"
 }
 
+entityDef lt4:door_metal
+{
+	"inherit"         "lt4:door" 
+
+    "snd_open"        "door_metal01_open"
+    "snd_close"       "door_metal01_close"
+}
+
 // configured for latched doors
 entityDef lt4:door_wood_latched
 {
