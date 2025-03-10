@@ -20,4 +20,6 @@ void start_spline()
 void main()
 {
 	sys.waitFrame();
+
+	$bromwich.KO_Knockout($null_entity);
 }
