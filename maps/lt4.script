@@ -16,6 +16,56 @@ void start_spline()
 	//}
 }
 
+void start_spline_end()
+{
+	entity spline		= $func_splinemover_3;		//the name of the nodraw splinemover brush carrying the curve data in your map
+	entity func_mover	= $func_static_1815;		//the name of the func_mover in your map
+
+	func_mover.enableDamage(0);
+	func_mover.time(10);					//let the mover take 10s per lap. Alternatively set speed(), in units per second
+	//func_mover.disableSplineAngles();			//optional: use this to stop the mover from rotating wildly depending on how the curve is angled
+ 	sys.threadname("spline_1");				//optional: give this thread a name so the spline mover can be stopped by another script with sys.killthread("spline_1");
+
+	func_mover.startSpline(spline);	
+
+	//while(1)						//loop the following indefinitely
+	//{
+	//	func_mover.startSpline(spline);			//start the mover along the spline
+	// 	sys.waitFor(func_mover);			//wait for the mover to finish its movement
+	//}
+}
+
+void start_spline_end2()
+{
+	entity spline		= $func_splinemover_4;		//the name of the nodraw splinemover brush carrying the curve data in your map
+	entity func_mover	= $func_static_1751;		//the name of the func_mover in your map
+
+	func_mover.time(10);					//let the mover take 10s per lap. Alternatively set speed(), in units per second
+	//func_mover.disableSplineAngles();			//optional: use this to stop the mover from rotating wildly depending on how the curve is angled
+ 	sys.threadname("spline_1");				//optional: give this thread a name so the spline mover can be stopped by another script with sys.killthread("spline_1");
+
+	func_mover.startSpline(spline);	
+
+	//while(1)						//loop the following indefinitely
+	//{
+	//	func_mover.startSpline(spline);			//start the mover along the spline
+	// 	sys.waitFor(func_mover);			//wait for the mover to finish its movement
+	//}
+}
+
+void attachHandle()
+{
+	// rotation: -1 0 0 0 0.745451 0.666561 0 0.666561 -0.745451
+	// rotate: 0 0 -115
+	// origin: 4824.75 -1325.92 -519.284
+}
+
+void setHandleFrobable()
+{
+	sys.println("function called");
+	$lever.setFrobable(1);
+}
+
 
 void main()
 {
