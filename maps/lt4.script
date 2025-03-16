@@ -26,6 +26,9 @@ void start_spline_end()
 	//func_mover.disableSplineAngles();			//optional: use this to stop the mover from rotating wildly depending on how the curve is angled
  	sys.threadname("spline_1");				//optional: give this thread a name so the spline mover can be stopped by another script with sys.killthread("spline_1");
 
+
+	$player1.setOrigin('4972 -760 -636');
+	$player1.bind(func_mover);
 	func_mover.startSpline(spline);	
 
 	//while(1)						//loop the following indefinitely
