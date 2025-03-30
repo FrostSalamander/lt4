@@ -1,0 +1,38 @@
+skin braeden_painting01_torn
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+
+	"painting01_m" "braeden_painting01"
+	"painting01" "braeden_painting01"
+}
+
+skin braeden_painting03_torn
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+
+	"painting01_m" "braeden_painting03"
+	"painting01" "braeden_painting03"
+}
+
+skin braeden_painting04_torn
+{
+	model "models/darkmod/decorative/wall/painting01.lwo"
+	model "models/darkmod/decorative/wall/painting01_m.lwo"
+	model "models/darkmod/decorative/wall/painting01_l.lwo"
+	model "models/darkmod/decorative/wall/painting01_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_m_tearable.lwo"
+	model "models/darkmod/decorative/wall/painting01_l_tearable.lwo"
+
+	"painting01_m" "braeden_painting04"
+	"painting01" "braeden_painting04"
+}
