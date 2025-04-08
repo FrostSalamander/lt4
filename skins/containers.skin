@@ -1,0 +1,8 @@
+skin fs_tea_crate
+{
+    model models/darkmod/containers/crate01.lwo
+    model models/darkmod/containers/crate02.lwo
+    model models/darkmod/containers/crate03.lwo
+
+    tdm_crate02       textures/darkmod/decals/signs/sign_tea
+}

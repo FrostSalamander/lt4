@@ -1,0 +1,10 @@
+atdm:moveable_food_deer_leg
+{
+	"inherit"			"atdm:moveable_food_healthy_base" // grayman #4166
+	"model"				"models/darkmod/kitchen/food/deer_leg_001.lwo"
+    "editor_usage"		"This food heals 10 HP when eaten."
+	"mass"				"4.2"
+	"bouncyness"		"0.06"
+	"snd_eaten"			"tdm_player_crunch"
+	"heal_amount"		"10"
+}
