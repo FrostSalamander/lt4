@@ -5,13 +5,13 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1226439 }
+		TotalSecondsEdited { 1226923 }
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1226439" } 
-		KeyValue { "LastCameraAngle" "25.4 9.59997 0" } 
-		KeyValue { "LastCameraPosition" "4192.88 -676.362 -569.425" } 
+		KeyValue { "EditTimeInSeconds" "1226923" } 
+		KeyValue { "LastCameraAngle" "-38.2 45.4 0" } 
+		KeyValue { "LastCameraPosition" "4577.51 -723.409 -518.016" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_flat" } 
 	}
 	Layers
@@ -18152,6 +18152,10 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // patch (Patch)
 		Node { 5 } // patch (Patch)
 		Node { 5 } // entity (func_static_2784)
+		Node { 5 } // entity (atdm_moveable_longsword_1)
+		Node { 5 } // entity (atdm_moveable_weapon_mace_2)
+		Node { 5 } // entity (atdm_moveable_dagger_1)
+		Node { 5 } // entity (atdm_attachment_melee_shortsword_1)
 	}
 	SelectionGroups
 	{
