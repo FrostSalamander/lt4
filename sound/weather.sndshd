@@ -1,0 +1,12 @@
+fs_weather_rain02
+{
+
+	editor_displayFolder	ambient/environmental/weather
+
+	description "Made by mrDischarged"
+	sound/ambient/environmental/weather_rain02_loop.ogg
+
+    looping
+    omnidirectional
+    volume      -10
+}
