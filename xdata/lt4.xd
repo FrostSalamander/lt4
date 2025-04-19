@@ -136,3 +136,20 @@ readables/lt4/inn_letter
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/oubliette_letter
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"  Farewell Gerrard my love.  We don't have to hide anymore."
+	}
+	"gui_page1"	: "guis/readables/rotten_paper_popsies_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
