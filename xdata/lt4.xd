@@ -153,3 +153,80 @@ readables/lt4/oubliette_letter
 	"gui_page1"	: "guis/readables/rotten_paper_popsies_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/book_treasury_guard
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"Exercise #1"
+		""
+		"  What developments led to high unemployment among labourers? Describe the effect these had on womenfolk."
+		""
+		"Exercise #2"
+		""
+		"  What currency denominations were intended for the wealthier classes?"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/homework_treasury_guard
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"exersise 1"
+		""
+		"lots of mashines were invented and took all the jobs from the peeple and the wemen had to becume wores"
+		""
+		"exersise 2"
+		""
+		"is this a trik question?"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/notice_treasury
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Notice:"
+		""
+		"  We are unable to provide a key for the door leading to the ground floor due to security reasons.  You will be let out at the end of your shift by one of the staff members."
+		""
+		"The Management"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
