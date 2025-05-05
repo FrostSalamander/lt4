@@ -1,0 +1,20 @@
+skin hanging_laundry_leather
+{
+    model models/darkmod/wearables/laundry_hanging03_long.lwo
+
+    tdm_hanging_laundry02 textures/darkmod/wood/boards/rough_wood_brown models/md5/chars/guards/citywatch/leather_tunic01_shadowcast
+}
+
+skin hanging_laundry_sackcloth
+{
+    model models/darkmod/wearables/laundry_hanging03_long.lwo
+
+    tdm_hanging_laundry02 tdm_hanging_laundry
+}
+
+skin hanging_laundry_roughpattern
+{
+    model models/darkmod/wearables/laundry_hanging03_long.lwo
+
+    tdm_hanging_laundry02 tdm_hanging_laundry03
+}

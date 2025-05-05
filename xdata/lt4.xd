@@ -44,7 +44,7 @@ readables/lt4/office_note
 	}
 	"page1_left_body"	:
 	{
-		" I saw her again! Who is she? Rumour has it she's the ghost of a servant. Apparently there is some treasure there too."
+		" I saw her again! Who is she? Rumour has it she's the ghost of a servant. Apparently there is some treasure in that place too."
 	}
 	"page1_right_title"	:
 	{
@@ -197,13 +197,13 @@ readables/lt4/homework_treasury_guard
 	"page1_body"	:
 	{
 		""
-		"exersise 1"
+		"Exercise 1"
 		""
-		"lots of mashines were invented and took all the jobs from the peeple and the wemen had to becume wores"
+		"The advent of mechanisation led to rampant unemployment among the working class. Unfortunately, it also resulted in thousands of women turning to prostitution in order to feed their children."
 		""
-		"exersise 2"
+		"Exercise 2"
 		""
-		"is this a trik question?"
+		"Guineas."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -228,5 +228,61 @@ readables/lt4/notice_treasury
 		"The Management"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/journal_treasury
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"  Well I never thought I'd see the day.  Ned has enrolled in an economics course and wants to pursue a degree.  Too bad he didn't do this ten years ago."
+		""
+		"  He was always lacking direction...perhaps it's my fault. I was always working during his childhood. It goes to show you that these "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"fancy private schools aren't always all that.  With his horrendous grades it took all I could muster just get to him that job guarding the vault in the basement.  The Treasury has standards after all."
+		""
+		"Ah well, he seems focused now, let's hope it works out."
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/book_castle_caretaker
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"  When I took this caretaker position I thought all these rumours of the place being haunted were complete rubbish. Now I'm not so sure. Weird noises, moving furniture, voices..."
+		"  Looking through these archives, I did find a reference to a serving wench who was thrown into the "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"castle's oubliette. Unfortunately the book's pages were too rotted to reveal the reason for her awful fate."
+		"  I'll keep digging.  Maybe if I find out what happened we can put her poor soul to rest."
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
