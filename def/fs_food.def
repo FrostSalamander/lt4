@@ -1,3 +1,10 @@
+ // Object hierarchy for edible food that goes into player inventory
+
+// the def_heal object determines the healing amount (not heal_amount).
+// You need to create a new def_heal object for each food item that has
+// a different heal amount.  Overriding the heal_amount spawnarg doesn't
+// work (think that only works for moveable food, not heal items like we're using here).
+
 entityDef fs:food
 {
 	"inherit"				"atdm:playertools_heal_item"
@@ -18,9 +25,19 @@ entityDef fs:food
 	"snd_bounce_wood"		"tdm_impact_fruit"
 }
 
-//////////////////////////////
-//// VEGETABLES
-//////////////////////////////
+////////////
+//// FISH
+////////////
+
+// def_heal object
+heal_food_fish
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible fish"
+	"heal_amount"				"5"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
 
 entityDef fs:food_fish_base
 {
@@ -28,7 +45,7 @@ entityDef fs:food_fish_base
 	"editor_usage"			"Don't use. Base class for inventory-enabled fish."
 
 	"mass"					"0.5"
-	"heal_amount"			"3"
+	"def_heal"				"heal_food_fish"
 
 	"snd_swallow"			"tdm_player_bread_crunch"
 
@@ -60,13 +77,23 @@ entityDef fs:food_mackerel
 //// VEGETABLES
 //////////////////////////////
 
+// def_heal object
+heal_food_veg
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible vegetables"
+	"heal_amount"				"1"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
 entityDef fs:food_veg_base
 {
 	"inherit"				"fs:food"
 	"editor_usage"			"Don't use. Base class for inventory-enabled vegetables."
 
 	"mass"					"0.2"
-	"heal_amount"			"1"
+	"def_heal"				"heal_food_veg"
 
 	"snd_swallow"			"tdm_player_carrot_crunch"
 
@@ -94,9 +121,29 @@ entityDef fs:food_turnip
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_turnip"
 }
 
+entityDef fs:food_pumpkin
+{
+	"inherit"				"fs:food_veg_base"
+	"model"					"models/darkmod/kitchen/food/pumpkin02.lwo"
+	"clipmodel"				"models/darkmod/misc/clipmodels/pumpkin_cm.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Pumpkin"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_pumpkin"
+}
+
 //////////////////////////////
 //// FRUIT
 //////////////////////////////
+
+heal_food_fruit
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible fruit"
+	"heal_amount"				"1"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
 
 entityDef fs:food_fruit_base
 {
@@ -106,7 +153,7 @@ entityDef fs:food_fruit_base
 	"mass"					"0.2"
 	"snd_swallow"			"tdm_player_apple_crunch"
 
-	"heal_amount"			"1"
+	"def_heal"				"heal_food_fruit"
 
 	"sprS_eaten"			"sprGS_food_bite:4"
 	"bouncyness"			"0.06"
@@ -136,6 +183,24 @@ entityDef fs:food_pear
 //// CHEESE
 //////////////////////////////
 
+heal_food_cheese_wedge
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible cheese wedge"
+	"heal_amount"				"2"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
+heal_food_cheese_wheel
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible cheese wheel"
+	"heal_amount"				"5"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
 entityDef fs:food_cheese_base
 {
 	"inherit"				"fs:food"
@@ -152,7 +217,7 @@ entityDef fs:food_cheese_wedge
 	"inv_name"				"Cheese wedge"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_cheese"
 
-	"heal_amount"			"1"
+	"def_heal"				"heal_food_cheese_wedge"
 }
 
 entityDef fs:food_cheese_wheel
@@ -163,12 +228,39 @@ entityDef fs:food_cheese_wheel
 	"inv_name"				"Cheese wheel"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_cheese_wheel"
 
-	"heal_amount"			"5"
+	"def_heal"				"heal_food_cheese_wheel"
 }
 
 //////////////////////////////
 //// BREAD
 //////////////////////////////
+
+heal_food_muffin
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible small muffin"
+	"heal_amount"				"1"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
+heal_food_bread_small
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible small bread"
+	"heal_amount"				"2"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
+heal_food_bread_large
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible large bread"
+	"heal_amount"				"5"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
 
 entityDef fs:food_bread_base
 {
@@ -183,7 +275,7 @@ entityDef fs:food_bread_small
 	"inherit"				"fs:food_bread_base"
 	"model"					"models/darkmod/kitchen/food/cake.lwo"
 
-	"heal_amount"			"2"
+	"def_heal"				"heal_food_bread_small"
 
 	//Inventory stuff
 	"inv_name"				"Bread (small)"
@@ -195,7 +287,7 @@ entityDef fs:food_bread_large
 	"inherit"				"fs:food_bread_base"
 	"model"					"models/darkmod/kitchen/food/bread_loaf01.lwo"
 
-	"heal_amount"			"3"
+	"def_heal"				"heal_food_bread_large"
 	
 	//Inventory stuff
 	"inv_name"				"Bread (large)"
@@ -207,7 +299,7 @@ entityDef fs:food_muffin
 	"inherit"				"fs:food_bread_base"
 	"model"					"models/darkmod/kitchen/food/muffin.lwo"
 
-	"heal_amount"			"1"
+	"def_heal"				"heal_food_muffin"
 	
 	//Inventory stuff
 	"inv_name"				"Muffin"
