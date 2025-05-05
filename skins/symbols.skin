@@ -1,0 +1,15 @@
+skin fs_letter_brush_steel
+{
+    model models/darkmod/symbols/1.ase
+    model models/darkmod/symbols/2.ase
+
+    textures/darkmod/metal/flat/brass01 textures/darkmod/metal/flat/brush_steel_scratched01
+}
+
+skin fs_letter_iron_flat
+{
+    model models/darkmod/symbols/1.ase
+    model models/darkmod/symbols/2.ase
+
+    textures/darkmod/metal/flat/brass01 textures/darkmod/metal/flat/iron_flat
+}

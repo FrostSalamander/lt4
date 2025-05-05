@@ -1,0 +1,178 @@
+entityDef fs:food
+{
+	"inherit"				"atdm:playertools_heal_item"
+
+	"editor_usage"			"Don't use. Base class for inventory-enabled food."
+	"editor_displayFolder"	"Moveables/Food"
+
+	//Inventory stuff
+
+	"inv_droppable"			"1"
+	"drop_to_hands"			"1"
+	"inv_category"			"Food"
+	"inv_stackable"			"1"
+
+	// make all food sound the same when bouncing as there
+	// aren't a lot of options
+	"snd_bounce"			"tdm_impact_fruit"
+	"snd_bounce_wood"		"tdm_impact_fruit"
+}
+
+//////////////////////////////
+//// VEGETABLES
+//////////////////////////////
+
+entityDef fs:food_veg_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled vegetables."
+
+	"mass"					"0.2"
+	"heal_amount"			"1"
+
+	"snd_swallow"			"tdm_player_carrot_crunch"
+
+	"sprS_eaten"			"sprGS_food_bite:4"
+	"bouncyness"			"0.06"
+}
+
+entityDef fs:food_carrot
+{
+	"inherit"				"fs:food_veg_base"
+	"model"					"models/darkmod/kitchen/food/carrot.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Carrot"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_carrot"
+}
+
+entityDef fs:food_turnip
+{
+	"inherit"				"fs:food_veg_base"
+	"model"					"models/darkmod/kitchen/food/turnip.ase"
+
+	//Inventory stuff
+	"inv_name"				"Turnip"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_turnip"
+}
+
+//////////////////////////////
+//// FRUIT
+//////////////////////////////
+
+entityDef fs:food_fruit_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled fruit."
+
+	"mass"					"0.2"
+	"snd_swallow"			"tdm_player_apple_crunch"
+
+	"heal_amount"			"1"
+
+	"sprS_eaten"			"sprGS_food_bite:4"
+	"bouncyness"			"0.06"
+}
+
+entityDef fs:food_apple
+{
+	"inherit"				"fs:food_fruit_base"
+	"model"					"models/darkmod/kitchen/food/apple.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Apple"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_apple"
+}
+
+entityDef fs:food_pear
+{
+	"inherit"				"fs:food_fruit_base"
+	"model"					"models/darkmod/kitchen/food/pear.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Pear"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_pear"
+}
+
+//////////////////////////////
+//// CHEESE
+//////////////////////////////
+
+entityDef fs:food_cheese_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled cheese."
+
+	"snd_swallow"			"tdm_player_bread_crunch"
+}
+
+entityDef fs:food_cheese_wedge
+{
+	"inherit"				"fs:food_cheese_base"
+	"model"					"models/darkmod/kitchen/food/cheese_wedge.lwo"
+
+	"inv_name"				"Cheese wedge"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_cheese"
+
+	"heal_amount"			"1"
+}
+
+entityDef fs:food_cheese_wheel
+{
+	"inherit"				"fs:food_cheese_base"
+	"model"					"models/darkmod/kitchen/food/cheese_wheel.lwo"
+
+	"inv_name"				"Cheese wheel"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_cheese_wheel"
+
+	"heal_amount"			"5"
+}
+
+//////////////////////////////
+//// BREAD
+//////////////////////////////
+
+entityDef fs:food_bread_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled bread."
+
+	"snd_swallow"			"tdm_player_bread_crunch"
+}
+
+entityDef fs:food_bread_small
+{
+	"inherit"				"fs:food_bread_base"
+	"model"					"models/darkmod/kitchen/food/cake.lwo"
+
+	"heal_amount"			"2"
+
+	//Inventory stuff
+	"inv_name"				"Bread (small)"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_bread_small"
+}
+
+entityDef fs:food_bread_large
+{
+	"inherit"				"fs:food_bread_base"
+	"model"					"models/darkmod/kitchen/food/bread_loaf01.lwo"
+
+	"heal_amount"			"3"
+	
+	//Inventory stuff
+	"inv_name"				"Bread (large)"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_bread"
+}
+
+entityDef fs:food_muffin
+{
+	"inherit"				"fs:food_bread_base"
+	"model"					"models/darkmod/kitchen/food/muffin.lwo"
+
+	"heal_amount"			"1"
+	
+	//Inventory stuff
+	"inv_name"				"Muffin"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_muffin"
+}
+
