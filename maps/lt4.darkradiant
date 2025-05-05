@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1287152" } 
-		KeyValue { "LastCameraAngle" "-40.4 31.4 0" } 
-		KeyValue { "LastCameraPosition" "5005.74 -573.694 101.306" } 
+		KeyValue { "EditTimeInSeconds" "1287471" } 
+		KeyValue { "LastCameraAngle" "-11.4 86.8 0" } 
+		KeyValue { "LastCameraPosition" "5010.24 -527.313 64.4515" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/weather/rain_splash_moderate" } 
 	}
 	SelectionGroups
@@ -11609,7 +11609,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1287152 }
+		TotalSecondsEdited { 1287471 }
 	}
 	Layers
 	{
@@ -30332,12 +30332,12 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (atdm_moveable_food_apple_3)
 		Node { 5 } // entity (atdm_moveable_food_cheese_wheel_1)
 		Node { 5 } // entity (fs_food_bread_small_1)
-		Node { 5 } // entity (fs_food_carrot_1)
-		Node { 5 } // entity (fs_food_carrot_2)
 		Node { 5 } // entity (fs_food_carrot_3)
 		Node { 5 } // entity (fs_food_carrot_4)
-		Node { 5 } // entity (fs_food_turnip_1)
-		Node { 5 } // entity (fs_food_turnip_2)
 		Node { 5 } // entity (fs_food_turnip_3)
+		Node { 5 } // entity (fs_food_bluefish_1)
+		Node { 5 } // entity (fs_food_bluefish_2)
+		Node { 5 } // entity (fs_food_mackerel_1)
+		Node { 5 } // entity (fs_food_mackerel_2)
 	}
 }

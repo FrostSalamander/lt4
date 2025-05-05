@@ -22,6 +22,44 @@ entityDef fs:food
 //// VEGETABLES
 //////////////////////////////
 
+entityDef fs:food_fish_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled fish."
+
+	"mass"					"0.5"
+	"heal_amount"			"3"
+
+	"snd_swallow"			"tdm_player_bread_crunch"
+
+	"bouncyness"			"0.06"
+}
+
+entityDef fs:food_bluefish
+{
+	"inherit"				"fs:food_fish_base"
+	"model"					"models/darkmod/kitchen/food/fish_bluefish.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Bluefish"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_bluefish"
+}
+
+entityDef fs:food_mackerel
+{
+	"inherit"				"fs:food_fish_base"
+	"model"					"models/darkmod/kitchen/food/fish_mackerel.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Mackerel"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_mackerel"
+}
+
+
+//////////////////////////////
+//// VEGETABLES
+//////////////////////////////
+
 entityDef fs:food_veg_base
 {
 	"inherit"				"fs:food"
