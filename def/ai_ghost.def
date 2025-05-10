@@ -6,7 +6,6 @@ entityDef lt4:ai_ghost
     "acuity_vis"       "0"
     "canSearch"        "0"
     "def_vocal_set"    "atdm:ai_vocal_set_mute"
-    
-    "snd_open"        "door_open_04"
-    "snd_close"       "door_shut_05"
+
+    "ko_immune"        "1"
 }

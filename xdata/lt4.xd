@@ -282,7 +282,7 @@ readables/lt4/book_castle_caretaker
 	"page1_right_body"	:
 	{
 		"tower's oubliette. Perhaps the ghost belongs to her, and maybe there's a way to put her poor soul to rest?"
-		"  I've been meaning to go down and investigate the oubliette, but I don't know where the key is and it's quite frankly the last place I feel like visiting..."
+		"  I've been meaning to go down and investigate the oubliette, but I don't know where the key is. Maybe it's in that creepy dining room where the food keeps mysteriously reappearing..."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -345,5 +345,29 @@ readables/lt4/tower_library_book
 	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/scroll_guard_oubliette
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"  Ignore the prisoner at all costs, except when providing daily food ration."
+		""
+		"  Do NOT under any circumstances lower anything into the opening except food and waste buckets."
+		""
+		"  If you fall into the opening, you will not be able to get out and will need to wait until the next shift change."
+		""
+		"  Falling asleep will result in severe reprimand."
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
