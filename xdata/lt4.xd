@@ -148,7 +148,8 @@ readables/lt4/oubliette_letter
 	}
 	"page1_body"	:
 	{
-		"  Farewell Gerrard my love.  We don't have to hide anymore."
+		"  Farewell Cedric my love.  We don't have to hide anymore."
+		"  If only we could be together one last time..."
 	}
 	"gui_page1"	: "guis/readables/rotten_paper_popsies_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -272,7 +273,7 @@ readables/lt4/book_castle_caretaker
 	"page1_left_body"	:
 	{
 		"  When I took this caretaker position I thought all these rumours of the place being haunted were complete rubbish. Now I'm not so sure. Weird noises, moving furniture, voices..."
-		"  Looking through these archives, I did find a reference to a serving wench who was thrown into the "
+		"  Looking through the tower archives, I found a reference to a serving wench who was thrown into the "
 	}
 	"page1_right_title"	:
 	{
@@ -280,8 +281,8 @@ readables/lt4/book_castle_caretaker
 	}
 	"page1_right_body"	:
 	{
-		"castle's oubliette. Unfortunately the book's pages were too rotted to reveal the reason for her awful fate."
-		"  I'll keep digging.  Maybe if I find out what happened we can put her poor soul to rest."
+		"tower's oubliette. Perhaps the ghost belongs to her, and maybe there's a way to put her poor soul to rest?"
+		"  I've been meaning to go down and investigate the oubliette, but I don't know where the key is and it's quite frankly the last place I feel like visiting..."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -315,9 +316,8 @@ readables/lt4/tower_library_book
 	}
 	"page1_left_body"	:
 	{
-		""
 		"  Warwick Tower is the last remaining guard tower in the old city. The tower played an important role in the defense of the city from foreign raiders, enforcing plague quarantines and more recently, hosting an academy of the Hermetic Order thinly-veiled as an astronomical research institute."
-		"  The tower is perhaps best "
+		"  The tower is perhaps best known as the site of the "
 	}
 	"page1_right_title"	:
 	{
@@ -325,8 +325,7 @@ readables/lt4/tower_library_book
 	}
 	"page1_right_body"	:
 	{
-		""
-		" known as the site of the rumoured adulterous affair between the mage instructor Cedric Hablethwaite and Princess Charlotte. Upon discovering the illicit affair, the Princess' father, King Dacombe, imprisoned Cedric in the Tower cells and banished his daughter to oubliette in the Tower basement. The skeletal remains of both have been "
+		"rumoured adulterous affair between the mage instructor Cedric Hablethwaite and servant Clarice Adams, who was in fact King Talbot's bastard child. When the King discovered the illicit affair and launched an investigation, Cedric was quickly betrayed by the academy who wished to avoid the King's ire since their existence was barely tolerated. King Talbot already"
 	}
 	"page2_left_title"	:
 	{
@@ -334,8 +333,7 @@ readables/lt4/tower_library_book
 	}
 	"page2_left_body"	:
 	{
-		""
-		"preserved in the Tower as a reminder to others of the price of immorality."
+		"considered Clarice to be a source of great embarrassment so he banished her to the oubliette in the Tower basement and imprisoned Cedric in the Tower cells. The skeletal remains of both have been preserved in the Tower as a reminder to others of the price of immorality."
 	}
 	"page2_right_title"	:
 	{
