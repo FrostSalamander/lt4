@@ -286,3 +286,66 @@ readables/lt4/book_castle_caretaker
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/scroll_castle_library
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Blah blah blah...."
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/tower_library_book
+{
+	precache
+	"num_pages"	: "2"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+		"  Warwick Tower is the last remaining guard tower in the old city. The tower played an important role in the defense of the city from foreign raiders, enforcing plague quarantines and more recently, hosting an academy of the Hermetic Order thinly-veiled as an astronomical research institute."
+		"  The tower is perhaps best "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+		" known as the site of the rumoured adulterous affair between the mage instructor Cedric Hablethwaite and Princess Charlotte. Upon discovering the illicit affair, the Princess' father, King Dacombe, imprisoned Cedric in the Tower cells and banished his daughter to oubliette in the Tower basement. The skeletal remains of both have been "
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		""
+		"preserved in the Tower as a reminder to others of the price of immorality."
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
