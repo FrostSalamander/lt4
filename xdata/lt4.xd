@@ -371,3 +371,24 @@ readables/lt4/scroll_guard_oubliette
 	"gui_page1"	: "guis/readables/scrolls/scroll_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/note_bannon
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Felix,"
+		""
+		"  Make sure that Stanley puts the van der Burg collection into the vault as soon as it arrives. Unlike the usual rubbish we peddle, these are actually worth something."
+		""
+		"  Arthur"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
