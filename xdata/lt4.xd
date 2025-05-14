@@ -392,3 +392,36 @@ readables/lt4/note_bannon
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/trout_guest_log
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+		"Guests:"
+		""
+		"1 - Salter, Richard. Salesman."
+		"2 - "
+		"3 -"
+		"4 -"
+		"5 - Coyle (no first name  or occupation provided)."
+		"6 -"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
