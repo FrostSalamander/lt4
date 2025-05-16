@@ -404,7 +404,6 @@ readables/lt4/trout_guest_log
 	}
 	"page1_left_body"	:
 	{
-		""
 		"Guests:"
 		""
 		"1 - Salter, Richard. Salesman."
@@ -420,7 +419,7 @@ readables/lt4/trout_guest_log
 	}
 	"page1_right_body"	:
 	{
-		""
+		"  Keep an eye on Salter's room - every time he visits the bar he leaves his door open."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
