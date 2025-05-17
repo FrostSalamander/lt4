@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1376405" } 
-		KeyValue { "LastCameraAngle" "-27.2 191.4 0" } 
-		KeyValue { "LastCameraPosition" "3733.42 -622.139 -317.447" } 
+		KeyValue { "EditTimeInSeconds" "1378203" } 
+		KeyValue { "LastCameraAngle" "-49.6 105 0" } 
+		KeyValue { "LastCameraPosition" "3801.83 -543.311 -302.634" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/panels/trim_wood_grunge_moulding_desat" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1376405 }
+		TotalSecondsEdited { 1378203 }
 	}
 	Layers
 	{
@@ -19569,6 +19569,10 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (fs_food_grapes_1)
 		Node { 5 } // entity (func_static_947)
 		Node { 5 } // entity (func_static_948)
+		Node { 5 } // entity (fs_food_banana_1)
+		Node { 5 } // entity (func_static_2765)
+		Node { 5 } // entity (fs_food_salami_1)
+		Node { 5 } // entity (fs_food_venison_leg_1)
 	}
 	SelectionGroups
 	{

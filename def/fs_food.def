@@ -26,6 +26,53 @@ entityDef fs:food
 }
 
 ////////////
+//// MEAT
+////////////
+
+// def_heal object
+heal_food_meat
+{
+	"inherit"					"heal_generic"
+	"editor_usage"				"def_heal object for edible meat"
+	"heal_amount"				"5"
+	"heal_interval"				"1000"
+	"heal_step_amount"			"1"
+}
+
+entityDef fs:food_meat_base
+{
+	"inherit"				"fs:food"
+	"editor_usage"			"Don't use. Base class for inventory-enabled meat."
+
+	"mass"					"0.5"
+	"def_heal"				"heal_food_meat"
+
+	"snd_swallow"			"tdm_player_bread_crunch"
+
+	"bouncyness"			"0.06"
+}
+
+entityDef fs:food_salami
+{
+	"inherit"				"fs:food_meat_base"
+	"model"					"models/darkmod/kitchen/food/salami_stick_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Salami"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_salami"
+}
+
+entityDef fs:food_venison_leg
+{
+	"inherit"				"fs:food_meat_base"
+	"model"					"models/darkmod/kitchen/food/deer_leg_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Venison leg"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_venison_leg"
+}
+
+////////////
 //// FISH
 ////////////
 
@@ -101,6 +148,16 @@ entityDef fs:food_veg_base
 	"bouncyness"			"0.06"
 }
 
+entityDef fs:food_aubergine
+{
+	"inherit"				"fs:food_veg_base"
+	"model"					"models/darkmod/kitchen/food/eggplant_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Aubergine"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_aubergine"
+}
+
 entityDef fs:food_carrot
 {
 	"inherit"				"fs:food_veg_base"
@@ -130,6 +187,16 @@ entityDef fs:food_pumpkin
 	//Inventory stuff
 	"inv_name"				"Pumpkin"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_pumpkin"
+}
+
+entityDef fs:food_cucumber
+{
+	"inherit"				"fs:food_veg_base"
+	"model"					"models/darkmod/kitchen/food/cucumber_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Cucumber"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_cucumber"
 }
 
 //////////////////////////////
@@ -177,6 +244,16 @@ entityDef fs:food_pear
 	//Inventory stuff
 	"inv_name"				"Pear"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_pear"
+}
+
+entityDef fs:food_banana
+{
+	"inherit"				"fs:food_fruit_base"
+	"model"					"models/darkmod/kitchen/food/banana_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Banana"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_banana"
 }
 
 entityDef fs:food_grapes
