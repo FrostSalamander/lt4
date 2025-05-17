@@ -424,3 +424,28 @@ readables/lt4/trout_guest_log
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/note_party
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Lord Burlington,"
+		""
+		"  Allow us to extend our sincere gratitute for the festivities at your new city apartment! The wine was excellent, and I'm afraid we all may have overindulged slightly.  At least, we thought it best to leave after you tried to insist we stage a 'jousting tournament' using your rustly old swords."
+		"  Regardless, it was all good fun!"
+		""
+		"Sincerely,"
+		""
+		"  James, Molly, Garth and Violet"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
