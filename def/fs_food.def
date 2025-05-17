@@ -179,6 +179,16 @@ entityDef fs:food_pear
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_pear"
 }
 
+entityDef fs:food_grapes
+{
+	"inherit"				"fs:food_fruit_base"
+	"model"					"models/darkmod/kitchen/food/grape_cluster_001.lwo"
+
+	//Inventory stuff
+	"inv_name"				"Grapes"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_grapes"
+}
+
 //////////////////////////////
 //// CHEESE
 //////////////////////////////
