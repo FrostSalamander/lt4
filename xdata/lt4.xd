@@ -449,3 +449,28 @@ readables/lt4/note_party
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/note_apts_grafitti
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Dear Mr Ambrose,"
+		""
+		"  Could you please remove that awful graffiti in the lifts? I don't pay the equivalent of fives times your annual salary per month in rent in order to stare at filth."
+		"  Furthermore, who is the perpetrator and how on earth do they get in here?  Unless you are the culprit, I'd say building security is not up to scratch.  I shall be reaching out to the landlord posthaste."
+		""
+		"Sincerely,"
+		""
+		"  Lord Burlington"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_summertime.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
