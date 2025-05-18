@@ -1,0 +1,138 @@
+/*****************************************************************************
+The Dark Mod GPL Source Code
+
+This file is part of the The Dark Mod Source Code, originally based
+on the Doom 3 GPL Source Code as published in 2011.
+
+The Dark Mod Source Code is free software: you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version. For details, see LICENSE.TXT.
+
+Project: The Dark Mod (http://www.thedarkmod.com/)
+
+******************************************************************************/
+
+#ifndef __TDM_MOVERS__
+#define __TDM_MOVERS__
+#include "script/tdm_elevator.script"
+
+object multistateposition
+{
+    void onMultiStateMoverArrive(entity mover);
+
+    void onMultiStateMoverLeave(entity mover);
+
+    boolean isDoorsOpen();
+
+    void leave(entity mover);
+
+    void closeDoors();
+
+    void triggerObstacles();
+};
+
+//---------------------------------------------------------------------------
+
+void multistateposition::onMultiStateMoverArrive(entity mover)
+{
+    self.activateTargets(mover);
+}
+
+void multistateposition::onMultiStateMoverLeave(entity mover)
+{
+    thread leave(mover);
+}
+
+void multistateposition::leave(entity mover)
+{
+    if (isDoorsOpen())
+    {
+        // close all the doors at this position
+        closeDoors();
+
+        // no idea why this is needed, but it doesn't work without it
+        sys.waitFrame();
+
+        // stop the lift
+        mover.stopMoving();
+
+        // the lift actually moves a bit before it's stopped.  We need it on the exact
+        // origin of the multistateposition for the 'open door' button to work, so put it back
+        mover.setOrigin(self.getOrigin());
+
+        while (isDoorsOpen())
+        {
+            sys.wait(0.1);
+        }
+
+        tdm_elevator lift = mover;
+
+        //sys.println("triggered by: " + lift.lastTriggeredBy.getName());
+
+        lift.activate(lift.lastTriggeredBy);
+    }
+
+    //triggerObstacles();
+
+}
+
+void multistateposition::closeDoors()
+{
+        float numDoors = self.numTargets();
+        float i;
+
+        for (i=0; i < numDoors; i++)
+        {
+            entity door = self.getTarget(i);
+            door.Close();
+        }
+}
+
+boolean multistateposition::isDoorsOpen()
+{
+
+    float numDoors = self.numTargets();
+    float i;
+
+    for (i=0; i < numDoors; i++)
+    {
+        entity door = self.getTarget(i);
+        if (door.IsOpen())
+        {
+            //sys.println("door is open");
+            return true;
+        }
+    }
+    //sys.println("doors are all closed");
+    return false;
+}
+
+void multistateposition::triggerObstacles()
+{
+    //sys.println("Calling triggerObstacles()");
+    //sys.println("entity name: " + self.getName());
+    //sys.println("Number of targets: " + self.numTargets());
+
+    //entity e0 = self.getTarget(0);
+    //entity e1 = self.getTarget(1);
+    //entity e2 = self.getTarget(2);
+    //sys.println("e0 name: " + e0.getName());
+    //sys.println("e1 name: " + e1.getName());
+    //sys.println("e2 name: " + e2.getName());
+
+    float i;
+
+	for(i = 0; i < self.numTargets(); i++)
+	{
+		entity e = self.getTarget(i);
+
+		if( e.getKey("spawnclass") == "idFuncAASObstacle" )
+		{
+            sys.println("Triggering func_aas_obstacle");
+            sys.trigger(e);
+		}
+    }
+}
+
+#endif //__TDM_MOVERS__

@@ -1,0 +1,28 @@
+#ifndef ELEVATOR
+#define ELEVATOR
+
+// This script object stores the trigger entity that last triggered
+// the elevator.  It is used later to 're-trigger' the elevator after
+// intercepting the call to trigger the elevator in a check to close
+// the doors in tdm_movers.script
+
+object tdm_elevator
+{
+    entity lastTriggeredBy;
+    void init();
+    void storeTrigger(entity e, entity f);
+};
+
+void tdm_elevator::init()
+{
+    ResponseAdd(STIM_TRIGGER);
+    ResponseSetAction(STIM_TRIGGER,"storeTrigger");
+    ResponseEnable(STIM_TRIGGER,1);
+}
+
+void tdm_elevator::storeTrigger(entity e, entity f)
+{
+    lastTriggeredBy = e;
+}
+
+#endif

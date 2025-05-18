@@ -1,0 +1,289 @@
+#define TRACE_LENGTH    136
+#define	LATCH_TOLERANCE	90
+
+object tdm_latch
+{
+	void init();
+	void frobabilityLoop();
+	boolean areDoorsOpen();
+	boolean areDoorsLocked();
+	void setDoorsFrobable(float frobable);
+	void setDoorsAINotHandle(float value);
+	void lockDoors();
+	void unlockDoors();
+	void setDoorsLockState(float lock);
+	void frobResponse();
+	void moveLatch();
+	void rotateLatch();
+	void translateLatch();
+
+	float latchOpen;	//1 = open, 0 = closed
+	float moveThreadNumber;
+};
+
+void tdm_latch::init()
+{
+
+	// Move the latch into the open position on map start if its doors are open or unlocked
+	if ( areDoorsOpen() || !areDoorsLocked() )
+	{
+		thread moveLatch();
+	}
+	else
+	{
+		// the latches remain closed, but ensure the AI can't use the doors
+		setDoorsAINotHandle( 1 );
+	}
+
+	//start checking whether the player is allowed to frob the latch
+	thread frobabilityLoop();
+}
+
+void tdm_latch::frobabilityLoop()
+{
+	vector latchPos = getWorldOrigin();
+	setFrobable(0);
+
+	while(1)
+	{
+		sys.wait(0.2);
+
+		// Let the thread moving the latch finish
+		sys.waitForThread(moveThreadNumber);
+
+		if ( ( sys.vecLength($player1.getEyePos() - latchPos ) > TRACE_LENGTH ) || isMoving() || isRotating() )
+		{
+			continue;    //skip if the player is too far away
+		}
+
+		//  latch frobable by default.  Do we definitely want this?
+		float frobable = 1;
+
+		// if player is in same location as the latch, make it frobable
+		if ( getIntKey("location_aware") )
+		{
+			frobable = ( getLocation() == $player1.getLocation() );
+		}
+		
+		if ( areDoorsOpen() )
+		{
+			setFrobable( 0 );
+		}
+		else
+		{
+			setFrobable( frobable );
+		}
+
+		//sys.println( self.getName() + ": frobable: " + isFrobable() );
+
+		// Set the door frobability
+		if ( latchOpen )
+		{
+			// If the latch is opening, wait until it's
+			// done before changing frobability
+			while ( isMoving() )
+			{
+				sys.wait( 0.1 );
+			}
+			
+			// always frobable when latch is open
+			setDoorsFrobable( 1 );
+		}
+		else 
+		{
+			// When latch is closed, depend on location check above
+			setDoorsFrobable( !frobable );
+		}
+	}
+}
+
+boolean tdm_latch::areDoorsOpen()
+{
+	float i;
+
+	for(i = 0; i < numTargets(); i++)
+	{
+		entity e = getTarget(i);
+
+		if( e.getKey("spawnclass") == "CFrobDoor" )
+		{
+			if ( e.IsOpen() )
+				return true;
+		}
+	}
+	return false;
+}
+
+boolean tdm_latch::areDoorsLocked()
+{
+	float i;
+
+	for(i = 0; i < numTargets(); i++)
+	{
+		entity e = getTarget(i);
+
+		if( e.getIntKey("locked") )
+		{
+				return true;
+		}
+	}
+	return false;
+}
+
+void tdm_latch::setDoorsFrobable(float frobable)
+{
+	float i;
+
+	for(i = 0; i < numTargets(); i++)
+	{
+		entity e = getTarget(i);
+
+		if( e.getKey("spawnclass") == "CFrobDoor" )
+		{
+			e.setFrobable(frobable);
+		}
+	}
+}
+
+void tdm_latch::setDoorsAINotHandle(float value)
+{
+	float i;
+
+	for(i = 0; i < numTargets(); i++)
+	{
+		entity e = getTarget(i);
+
+		if( e.getKey("spawnclass") == "CFrobDoor" )
+		{
+			//sys.println( "setting ai_should_not_handle to: " + value );
+			e.setKey( "ai_should_not_handle", value );
+		}
+	}
+}
+
+void tdm_latch::lockDoors()
+{
+	setDoorsLockState(1);
+}
+
+void tdm_latch::unlockDoors()
+{
+	setDoorsLockState(0);
+}
+
+// 1: lock doors
+// 0: unlock doors
+void tdm_latch::setDoorsLockState(float lock)
+{
+	float i;
+
+	for(i = 0; i < numTargets(); i++)
+	{
+		entity e = getTarget(i);
+
+		if( e.getKey("spawnclass") == "CFrobDoor" )
+		{
+			if (lock)
+			{
+				// being defensive here - only lock if unlocked
+				if ( !e.IsLocked() )
+				{
+					e.Lock();
+				}
+			}
+			else
+			{
+				// If you unlock the door when it's already unlocked, the door will open
+				// if 'open doors on unlock' is enabled in the game settings.
+				if ( e.IsLocked() )
+				{
+					e.Unlock();
+				}
+			}
+		}
+	}
+}
+
+void tdm_latch::frobResponse()
+{
+	//sys.waitForThread(moveThreadNumber);
+
+	moveThreadNumber = thread moveLatch();
+}
+
+void tdm_latch::moveLatch()
+{
+	if( isMoving() || isRotating() )
+	{
+		//sys.println("latch is moving, ignoring frob request.");
+		return;
+	}
+
+	//sys.println("allowing frob request.");
+
+	// immediately set the latch to unfrobable instead of relying on the loop to 
+	// prevent player from moving it and locking the door in open position
+	setFrobable(0);
+
+	latchOpen = !latchOpen;
+
+	time( getFloatKey("move_time") );
+
+	// if latch is opening, rotate then translate.  Reverse if latch is closing.
+	if ( latchOpen )
+	{
+		rotateLatch();
+
+		while ( isRotating() )
+		{
+			sys.wait( 0.2 );
+		}
+
+		translateLatch();
+	}
+	else
+	{
+		// stop from being able to frob the door while the latch is closing
+		setDoorsFrobable( 0 );
+
+		translateLatch();
+
+		while ( isMoving() )
+		{
+			sys.wait( 0.2 );
+		}
+
+		rotateLatch();
+	}
+
+	sys.wait( getFloatKey("move_time") );
+
+	if (latchOpen)
+	{
+		unlockDoors();
+		setDoorsFrobable( latchOpen );
+	}
+	else
+	{
+		lockDoors();
+	}
+
+	// This will delay the frob loop because it waits until this thread finishes.
+	// It allows the latch to open and the door to start opening if auto-open on unlock is enabled.
+	// By the time the frob loop resumes, the latch should be unfrobable because the doors are opening
+	sys.wait(1);
+
+	setDoorsAINotHandle( !latchOpen );
+}
+
+void tdm_latch::rotateLatch()
+{
+	startSound( "snd_rotate", SND_CHANNEL_ANY, false);
+	rotateOnce( (2*latchOpen - 1) * getVectorKey("rotate") );
+}
+
+void tdm_latch::translateLatch()
+{
+	startSound( "snd_translate", SND_CHANNEL_ANY, false);
+	moveToPos( getVectorKey("origin") + latchOpen * getVectorKey("translate") );
+}

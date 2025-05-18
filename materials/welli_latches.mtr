@@ -1,0 +1,63 @@
+tdm_door_latch_01
+{
+    qer_editorimage	models/darkmod/props/textures/tdm_door_latch_01_s
+        metal
+
+		{
+			blend diffusemap
+			map models/darkmod/props/textures/tdm_door_latch_01_s
+				red .7
+				green .7
+				blue .6
+		}
+			{
+				maskcolor				
+				map makealpha(models/darkmod/props/textures/tdm_door_latch_01_mask)
+			}
+			{
+				forceHighQuality
+				blend gl_dst_alpha, gl_one
+				cameraCubeMap env/currency_camera/coin
+				texgen reflect
+			}
+		{
+			blend specularmap
+			map models/darkmod/props/textures/tdm_door_latch_01_s
+			rgb 1
+		}
+
+	bumpmap		models/darkmod/props/textures/tdm_door_latch_01_local
+
+}
+
+tdm_door_latch_02
+{
+    qer_editorimage	models/darkmod/props/textures/tdm_door_latch_02_s
+        metal
+
+		{
+			blend diffusemap
+			map models/darkmod/props/textures/tdm_door_latch_02_s
+				red .7
+				green .7
+				blue .6
+		}
+			{
+				maskcolor				
+				map makealpha(models/darkmod/props/textures/tdm_door_latch_02_mask)
+			}
+			{
+				forceHighQuality
+				blend gl_dst_alpha, gl_one
+				cameraCubeMap env/currency_camera/coin
+				texgen reflect
+			}
+		{
+			blend specularmap
+			map models/darkmod/props/textures/tdm_door_latch_02_s
+			rgb 1
+		}
+
+	bumpmap		models/darkmod/props/textures/tdm_door_latch_02_local
+
+}

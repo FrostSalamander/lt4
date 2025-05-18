@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default" parentId="-1" active="true" hidden="false"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="2" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="12911"/>
+    <property key="LastCameraAngle" value="-56.7 148.3 0"/>
+    <property key="LastCameraPosition" value="89.1052 446.569 -4.47364"/>
+    <property key="LastShaderClipboardMaterial" value="textures/darkmod/_proto/proto_metal"/>
+  </properties>
+  <entity number="0">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:latch_door_01"/>
+      <keyValue key="name" value="atdm_latch_door_01_W_lock"/>
+      <keyValue key="origin" value="66 462 -48"/>
+      <keyValue key="rotation" value="0 1 0 -1 0 0 0 0 1"/>
+      <keyValue key="translate" value="0 10 0"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="1">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="atdm_latch_door_01_W_plateA"/>
+      <keyValue key="model" value="models/darkmod/door_related/latch_door_01_plateA.ase"/>
+      <keyValue key="origin" value="64 471 -48"/>
+      <keyValue key="rotation" value="0 1 0 -1 0 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="2">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="atdm_latch_door_01_W_plateB"/>
+      <keyValue key="model" value="models/darkmod/door_related/latch_door_01_plateB.ase"/>
+      <keyValue key="origin" value="64 458 -48"/>
+      <keyValue key="rotation" value="0 1 0 -1 0 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

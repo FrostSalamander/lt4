@@ -69,6 +69,42 @@ void setHandleFrobable()
 	$lever.setFrobable(1);
 }
 
+/////////
+// LIFT
+/////////
+
+// The fetch buttons target both the elevator and a atdm_target_callscriptfunction entity like so:
+// The fetch button has a 'target' spawnarg which targets the elevator
+// target0 targets the atdm_target_callscriptfunction
+// the atdm_target_callscriptfunction calls this script, and targets the doors, and has 'foreach 1' set.
+// The button also needs a spawnarg called position_entity_name whose value is the name of the multistate position entity
+//
+// The elevator needs to have the scriptobject spawnarg set to 'tdm_elevator'
+//
+// The multistate position entities need to target the doors, and set always_trigger_targets = 0
+
+void controlLiftDoors(entity target, entity button, entity callscriptfunction)
+{
+    // The button that calls this is targeting the lift with 'target' spawnarg (i.e. not 'target0', 'target1', etc.)
+    entity lift = button.getEntityKey("target");
+
+    // Get the multistate position entity this button corresponds to
+    // custom spawnarg: didn't want to use 'target' or 'position' because they activate unwanted functionality on some buttons
+    entity multiStatePosition = button.getEntityKey("position_entity_name"); 
+
+    // ensure the lift is idle and it's on the appropriate floor
+    if ( !lift.isMoving() && (lift.getOrigin() == multiStatePosition.getOrigin()) )
+    {
+        if (target.IsOpen())
+        {
+            target.Close();
+        }
+        else
+        {
+            target.Open();
+        }
+    }
+}
 
 void main()
 {

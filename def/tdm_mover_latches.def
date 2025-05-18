@@ -1,0 +1,80 @@
+entityDef atdm:mover_latch
+{
+	"inherit"         "func_mover" 
+
+
+	"move_time"       	"1"
+	"translate"       	"10 0 0"
+	"rotate"          	"0 0 0"
+	"frob_bias"       	"3"
+	"snd_rotate"		"silence"
+	"snd_translate"		"silence"
+	"location_aware"    "1"
+
+	"scriptobject"          "tdm_latch"
+	"frob_action_script"    "frobResponse"
+	
+	"editor_var translate"			"Sets the distance and direction the latch will move upon interaction"
+	"editor_var rotate"				"Sets the distance and direction the latch will rotate upon interaction"
+	"editor_float move_time"		"The duration in seconds of the rotate and translate movement phases."
+	"editor_float frob_bias"		""
+	"editor_float location_aware"	"If set, the latch will only be frobable if the latch and the player are in the same location. If set to 0 the location system will not be used in frobability checks."
+
+}
+
+atdm:latch_door_01
+{
+
+    "editor_usage"			"A simple latch in the style of The Empire. Functional if a bit unimaginative. Target door(s) to use as a toggle lock. Use latch_normal to specify the interaction angle for the latch"
+
+	"inherit"			"atdm:mover_latch"
+	"model" 			"models/darkmod/door_related/latch_door_01_lock.ase"
+
+	"snd_translate"		"lockpick_pick_wrong"
+	"move_time"			".3"
+	"translate"			"10 0 0"
+}
+
+atdm:latch_door_01_small
+{
+
+    "editor_usage"			"A simple latch in the style of The Empire, but smaller in stature. Functional if a bit unimaginative. Target door(s) to use as a toggle lock. Place latch in closed position. Use latch_normal to specify the interaction angle for the latch."
+
+	"inherit"			"atdm:mover_latch"
+	"model" 			"models/darkmod/door_related/latch_door_01_small_lock.ase"
+
+	"snd_translate"		"lockpick_pick_wrong"
+	"move_time"			".2"
+	"translate"			"5 0 0"
+}
+
+atdm:latch_door_02
+{
+
+    "editor_usage"			"An ornate latch in the style of distant lands colonized by The Empire. Well suited to double doors. Target door(s) to use as a toggle lock. Place latch in closed position. Use latch_normal to specify the interaction angle for the latch."
+
+	"inherit"			"atdm:mover_latch"
+	"model" 			"models/darkmod/door_related/latch_door_02_lock.ase"
+
+	"move_time"			".35"
+	"translate"			"11 0 0"
+	"rotate"          	"0 0 -180"
+	"snd_rotate"		"frob_lever_metal_small_01"
+	"snd_translate"		"metal_cabinet01_open"
+
+}
+
+atdm:latch_door_02_small
+{
+
+    "editor_usage"			"An ornate latch in the style of distant lands colonized by The Empire. Well suited to single doors or small openings. Target door(s) to use as a toggle lock. Place latch in closed position. Use latch_normal to specify the interaction angle for the latch."
+
+	"inherit"			"atdm:mover_latch"
+	"model" 			"models/darkmod/door_related/latch_door_02_small_lock.ase"
+
+	"move_time"			".25"
+	"translate"			"5 0 0"
+	"rotate"          	"0 0 -180"
+	"snd_translate"		"lockpick_pin_08"
+	"snd_rotate"		"combination_lock"
+}
