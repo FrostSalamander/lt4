@@ -57,7 +57,6 @@ entityDef fs:food_salami
 	"inherit"				"fs:food_meat_base"
 	"model"					"models/darkmod/kitchen/food/salami_stick_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Salami"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_salami"
 }
@@ -67,9 +66,17 @@ entityDef fs:food_venison_leg
 	"inherit"				"fs:food_meat_base"
 	"model"					"models/darkmod/kitchen/food/deer_leg_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Venison leg"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_venison_leg"
+}
+
+entityDef fs:food_sausages
+{
+	"inherit"				"fs:food_meat_base"
+	"model"					"models/darkmod/kitchen/food/beef_links_hanging_002.lwo"
+
+	"inv_name"				"Sausages"
+	"inv_icon"				"guis/assets/hud/inventory_icons/food_sausages"
 }
 
 ////////////
@@ -104,7 +111,6 @@ entityDef fs:food_bluefish
 	"inherit"				"fs:food_fish_base"
 	"model"					"models/darkmod/kitchen/food/fish_bluefish.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Bluefish"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_bluefish"
 }
@@ -114,7 +120,6 @@ entityDef fs:food_mackerel
 	"inherit"				"fs:food_fish_base"
 	"model"					"models/darkmod/kitchen/food/fish_mackerel.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Mackerel"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_mackerel"
 }
@@ -153,7 +158,6 @@ entityDef fs:food_aubergine
 	"inherit"				"fs:food_veg_base"
 	"model"					"models/darkmod/kitchen/food/eggplant_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Aubergine"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_aubergine"
 }
@@ -163,7 +167,6 @@ entityDef fs:food_carrot
 	"inherit"				"fs:food_veg_base"
 	"model"					"models/darkmod/kitchen/food/carrot.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Carrot"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_carrot"
 }
@@ -173,7 +176,6 @@ entityDef fs:food_turnip
 	"inherit"				"fs:food_veg_base"
 	"model"					"models/darkmod/kitchen/food/turnip.ase"
 
-	//Inventory stuff
 	"inv_name"				"Turnip"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_turnip"
 }
@@ -184,7 +186,6 @@ entityDef fs:food_pumpkin
 	"model"					"models/darkmod/kitchen/food/pumpkin02.lwo"
 	"clipmodel"				"models/darkmod/misc/clipmodels/pumpkin_cm.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Pumpkin"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_pumpkin"
 }
@@ -194,7 +195,6 @@ entityDef fs:food_cucumber
 	"inherit"				"fs:food_veg_base"
 	"model"					"models/darkmod/kitchen/food/cucumber_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Cucumber"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_cucumber"
 }
@@ -231,7 +231,6 @@ entityDef fs:food_apple
 	"inherit"				"fs:food_fruit_base"
 	"model"					"models/darkmod/kitchen/food/apple.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Apple"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_apple"
 }
@@ -241,7 +240,6 @@ entityDef fs:food_pear
 	"inherit"				"fs:food_fruit_base"
 	"model"					"models/darkmod/kitchen/food/pear.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Pear"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_pear"
 }
@@ -251,7 +249,6 @@ entityDef fs:food_banana
 	"inherit"				"fs:food_fruit_base"
 	"model"					"models/darkmod/kitchen/food/banana_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Banana"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_banana"
 }
@@ -261,7 +258,6 @@ entityDef fs:food_grapes
 	"inherit"				"fs:food_fruit_base"
 	"model"					"models/darkmod/kitchen/food/grape_cluster_001.lwo"
 
-	//Inventory stuff
 	"inv_name"				"Grapes"
 	"inv_icon"				"guis/assets/hud/inventory_icons/food_grapes"
 }
