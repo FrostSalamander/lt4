@@ -474,3 +474,27 @@ readables/lt4/note_apts_grafitti
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_summertime.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/letter_norman
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Constable Norman,"
+		""
+		"  Please accept my congratulations on your promotion to Sargeant, effective one week next Monday."
+		"  This is a reflection of your outstanding performance, competence and dedication to duty, as observed by myself and reported by your peers."
+		"  We look forward to your further outstanding service with the Watch."
+		""
+		"  Superintendent Johnson"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
