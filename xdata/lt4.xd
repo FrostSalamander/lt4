@@ -130,7 +130,7 @@ readables/lt4/inn_letter
 		""
 		"Bring Bromwich to Fishend.  From there, Bates will take over.  Use this key to access the flat."
 		""
-		"Y"
+		"Yardley"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -523,5 +523,37 @@ readables/lt4/journal_norman
 		""
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt4/note_yardley
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Mr Yardley,"
+		""
+		"  Please welcome my colleague Jalid and make him feel at home.  Allow me to remind you we are paying you very well for your help with this operation."
+		"  As you have been informed, the objective is to negotiate the return of one of our agents who is being held prisoner in your country.  In order to obtain leverage, one of your agents must be captured."
+		"  Once a suitable target is identified, "
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		""
+		"hold him until Jalid arrives.  He will then take over negotiations for the hostage exchange."
+		"  On arrival, Jalid will present you with the first portion of your compensation.  The rest will be provided upon completion of the prisoner exchange at a later date, presuming the operation is not uncovered."
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_treasure_map.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_calig_treasure_map.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
