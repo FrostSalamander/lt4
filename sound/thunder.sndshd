@@ -3,7 +3,7 @@ fs_thunder
 
 	minDistance	999999
 	maxDistance	999999
-	volume		-10
+	volume		-20
 	no_efx
 
 	sound/ambient/environmental/thunder_close01.wav         // sound by hantorio
