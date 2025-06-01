@@ -1,0 +1,8 @@
+fs_squarepanels_opaque
+{
+
+	model "models/darkmod/architecture/windows/squarepanels_semi_transparent01.lwo"
+
+	"textures/darkmod/window/lamp_glass_unlit_transparent"  "textures/darkmod/window/lamp_glass_unlit_opaque"
+    "textures/darkmod/window/lamp_glass_lit_transparent"    "textures/darkmod/window/lamp_glass_lit_opaque"
+}
