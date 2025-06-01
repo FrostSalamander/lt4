@@ -361,7 +361,7 @@ readables/lt4/scroll_guard_oubliette
 		""
 		"  Ignore the prisoner at all costs, except when providing daily food ration."
 		""
-		"  Do NOT under any circumstances lower anything into the opening except food and waste buckets."
+		"  Do NOT under any circumstances lower anything into the opening that the prisoner could leverage to help them escape.  Food and waste buckets only."
 		""
 		"  If you fall into the opening, you will not be able to get out and will need to wait until the next shift change."
 		""
