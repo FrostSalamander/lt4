@@ -557,3 +557,24 @@ readables/lt4/note_yardley
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_calig_treasure_map.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/note_bailey
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Bailey,"
+		""
+		"  Whenever you decide to surface from the meeting room upstairs I need you to get something out of the safe for me. Apologies for the invonvenience, but it will be like this as long as Sinclair insists you are the only other person to have the safe combination."
+		""
+		"  Fulford"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
