@@ -4,8 +4,8 @@ entityDef lt4:window
 
     "move_time"       "0.5"
 
-    "snd_open"        "door_open_04"
-    "snd_close"       "door_shut_05"
+    "snd_open"        "chest_wood_open"
+    "snd_close"       "chest_wood_close"
 }
 
 entityDef lt4:window_metal
