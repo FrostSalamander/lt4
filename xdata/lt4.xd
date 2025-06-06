@@ -439,10 +439,10 @@ readables/lt4/note_party
 		"Lord Burlington,"
 		""
 		"  Allow us to extend our sincere gratitute for the festivities at your new city apartment! The wine was excellent, and I'm afraid we all may have overindulged slightly.  At least, we thought it best to leave after you tried to insist we stage a 'jousting tournament' using your rustly old swords."
+		"  Also, you seemed to think we stole your gold dagger. I'm sure it will turn up somewhere!"
 		"  Regardless, it was all good fun!"
 		""
 		"Sincerely,"
-		""
 		"  James, Molly, Garth and Violet"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
