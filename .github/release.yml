@@ -1,0 +1,32 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+  categories:
+    - title: Bug fixes
+      labels:
+        - bug
+    - title: Enhancements
+      labels:
+        - enhancement
+    - title: Visuals
+      labels:
+        - visuals
+    - title: Readables
+      labels:
+        - readables
+    - title: Sound
+      labels:
+        - sound
+    - title: Performance
+      labels:
+        - performance
+    - title: Gameplay
+      labels:
+        - gameplay
+    - title: Housekeeping
+      labels:
+        - housekeeping
+    - title: Other Changes
+      labels:
+        - "*"
