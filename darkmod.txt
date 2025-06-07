@@ -1,4 +1,4 @@
 Title: The Lieutenant 4: A Reciprocal Gambit
 Description: The Lieutenant returns home and gets anything but a quiet debrief.
-Version: 0.2-beta
+Version: 0.3-beta
 Author: Frost_Salamander
