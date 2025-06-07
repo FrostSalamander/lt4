@@ -11,13 +11,15 @@ float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
 float OBJ_COMP_DOOR = 2;
 float OBJ_COMP_ESCAPE = 3;
+float OBJ_KILL = 6;
 
 boolean canTakeBoat()
 {
 	float stateBromwichInBoat = $player1.getObjectiveComp(OBJ_FINAL, OBJ_COMP_BOAT);
 	float stateDoor = $player1.getObjectiveComp(OBJ_FINAL, OBJ_COMP_DOOR);
+	float stateKill = $player1.getObjectiveState(OBJ_KILL);
 
-	return (stateBromwichInBoat && stateDoor);
+	return (stateBromwichInBoat && stateDoor && stateKill);
 }
 
 // Set the lock to unfrobable once it's opened to prevent unwanted scenarios (door partially open, etc)
@@ -30,14 +32,6 @@ void start_spline_end()
 {
 	if (canTakeBoat())
 	{
-		// finish the objective
-		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
-
-		// For some reason (bug?), even though at this point all objective components are complete,
-		// and the 'objective complete' notification happens, it's not checked as complete in the UI.
-		// Do it ourselves here.
-		$player1.setObjectiveState(OBJ_FINAL, OBJ_COMPLETE);
-
 		entity spline		= sys.getEntity(ENT_CANAL_SPLINE);		//the name of the nodraw splinemover brush carrying the curve data in your map
 		entity func_mover	= sys.getEntity(ENT_ESCAPE_BOAT);		//the name of the func_mover in your map
 
@@ -48,33 +42,23 @@ void start_spline_end()
 
 		$player1.setOrigin('4972 -760 -636');
 		$player1.bind(func_mover);
-		func_mover.startSpline(spline);	
+
+		// Bromwich can flop around the boat when it starts, dealing damage to him.
+		// Binding the ragdoll doesn't work so try this.
+		sys.getEntity(ENT_BROMWICH).ignoreDamage();
+
+		func_mover.startSpline(spline);
+
+		sys.wait(5);
+
+		// finish the objective
+		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
+
+		// For some reason (bug?), even though at this point all objective components are complete,
+		// and the 'objective complete' notification happens, it's not checked as complete in the UI.
+		// Do it ourselves here.
+		$player1.setObjectiveState(OBJ_FINAL, OBJ_COMPLETE);
 	}
-}
-
-void start_spline()
-{
-	entity spline		= $func_splinemover_2;		//the name of the nodraw splinemover brush carrying the curve data in your map
-	entity func_mover	= sys.getEntity(ENT_ESCAPE_BOAT);		//the name of the func_mover in your map
-
-	func_mover.time(20);					//let the mover take 10s per lap. Alternatively set speed(), in units per second
-	//func_mover.disableSplineAngles();			//optional: use this to stop the mover from rotating wildly depending on how the curve is angled
- 	sys.threadname("spline_1");				//optional: give this thread a name so the spline mover can be stopped by another script with sys.killthread("spline_1");
-
-	func_mover.startSpline(spline);	
-
-	//while(1)						//loop the following indefinitely
-	//{
-	//	func_mover.startSpline(spline);			//start the mover along the spline
-	// 	sys.waitFor(func_mover);			//wait for the mover to finish its movement
-	//}
-}
-
-void attachHandle()
-{
-	// rotation: -1 0 0 0 0.745451 0.666561 0 0.666561 -0.745451
-	// rotate: 0 0 -115
-	// origin: 4824.75 -1325.92 -519.284
 }
 
 void setHandleFrobable()

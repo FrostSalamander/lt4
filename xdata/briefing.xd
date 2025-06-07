@@ -1,0 +1,18 @@
+maps/lt4/mission_briefing
+{
+ "num_pages": "1"
+ 
+ "page1_body" :
+ {
+   ""
+   ""
+   "  It's been a couple of weeks since your return from Mesyad.  You've had your rest, now it's time to check in at the office "
+   "with your supervisor, Mr. Bromwich."
+   ""
+   "  The night is cold and wet, and you take the back alleys on your way into the city, taking care not to be seen."
+   ""
+   "  Something doesn't feel right, and you can't quite put your finger on it."
+   ""
+  }
+
+}
