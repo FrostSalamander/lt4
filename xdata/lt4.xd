@@ -578,3 +578,30 @@ readables/lt4/note_bailey
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/journal_norman_father
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"  Alma hasn't been the same since Cliff was killed by that horrible gang.  She's like a zombie, sitting in that chair in front of the fireplace all day and all night."
+		"  Maybe it's time we cleared out his room and moved on with our lives.  We couldn't bear to change anything in it since it happened."
+		"  He was so excited, getting that promotion and all. Alma was terrified from the start"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"about him taking that job with the City Watch. Maybe it's my fault.  He wasn't the best student at school but he was always talking about being a Watch officer, so I encouraged him.  I don't think Alma will ever forgive me."
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
