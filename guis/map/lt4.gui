@@ -1,0 +1,23 @@
+windowDef Desktop
+{
+	rect	0,0,640,480
+
+	windowDef TitlePicture
+	{
+		rect	0,0,640,480
+		visible	1
+		background	"guis/assets/lt4_loading_screen"
+	}
+
+	windowDef ProgressBarInitialize
+	{
+		rect	230,457,( "gui::map_loading" * 175 ),16
+
+		windowDef LoadingFill
+		{
+			rect	0,0,256,16
+			background	"guis/assets/splash/load"
+		}
+	}
+}
+
