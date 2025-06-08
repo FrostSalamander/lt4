@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1549887" } 
-		KeyValue { "LastCameraAngle" "-34.2 155.124 0" } 
-		KeyValue { "LastCameraPosition" "2744.41 -1641.37 -55.9946" } 
+		KeyValue { "EditTimeInSeconds" "1549930" } 
+		KeyValue { "LastCameraAngle" "4.2 160.124 0" } 
+		KeyValue { "LastCameraPosition" "492.597 -772.432 -918.643" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1549887 }
+		TotalSecondsEdited { 1549930 }
 	}
 	Layers
 	{
@@ -24587,8 +24587,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 24444 { "" }
 		SelectionGroup 24445 { "" }
 		SelectionGroup 24447 { "" }
-		SelectionGroup 24448 { "" }
-		SelectionGroup 24449 { "" }
 		SelectionGroup 24451 { "" }
 		SelectionGroup 24452 { "" }
 		SelectionGroup 24455 { "" }
@@ -33288,7 +33286,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4018 13782 ) ( 24430 24431 ) } // patch (Patch)
 		Node { ( 4018 13783 ) ( 24433 24431 ) } // patch (Patch)
 		Node { ( 4018 13784 ) ( 24432 24431 ) } // patch (Patch)
-		Node { ( 4033 ) ( 24449 ) } // entity (func_static_2819)
 		Node { ( 4040 ) ( 24464 ) } // entity (func_static_2823)
 		Node { ( 4042 13811 ) ( 24444 ) } // patch (Patch)
 		Node { ( 4042 13812 ) ( 24444 ) } // patch (Patch)
@@ -33299,10 +33296,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4044 ) ( 24445 ) } // entity (func_static_2831)
 		Node { ( 4045 ) ( 24445 ) } // entity (func_static_2830)
 		Node { ( 4049 ) ( 24447 ) } // entity (func_static_2835)
-		Node { ( 4050 ) ( 24448 24449 ) } // entity (path_corner_65)
-		Node { ( 4051 ) ( 24448 24449 ) } // entity (path_sit_5)
-		Node { ( 4057 ) ( 24448 24449 ) } // entity (path_wait_51)
-		Node { ( 4062 ) ( 24448 24449 ) } // entity (path_anim_14)
 		Node { ( 4067 ) ( 24464 ) } // entity (func_static_2839)
 		Node { ( 4069 ) ( 24452 ) } // entity (atdm_handle_short01_double_4)
 		Node { ( 4070 ) ( 24452 ) } // entity (lt4_door_wood_19)
