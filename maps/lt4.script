@@ -1,11 +1,6 @@
 // Entity names
 string ENT_CANAL_LOCK = "atdm_froblock_1";
 string ENT_CANAL_DOOR = "atdm_mover_door_4";
-string ENT_CANAL_SPLINE = "func_splinemover_3";
-
-string ENT_ESCAPE_BOAT = "func_static_1815";
-
-string ENT_BROMWICH = "bromwich";
 
 float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
@@ -32,32 +27,13 @@ void start_spline_end()
 {
 	if (canTakeBoat())
 	{
-		entity spline		= sys.getEntity(ENT_CANAL_SPLINE);		//the name of the nodraw splinemover brush carrying the curve data in your map
-		entity func_mover	= sys.getEntity(ENT_ESCAPE_BOAT);		//the name of the func_mover in your map
-
-		func_mover.enableDamage(0);
-		func_mover.time(10);					//let the mover take 10s per lap. Alternatively set speed(), in units per second
-		//func_mover.disableSplineAngles();			//optional: use this to stop the mover from rotating wildly depending on how the curve is angled
-		sys.threadname("spline_1");				//optional: give this thread a name so the spline mover can be stopped by another script with sys.killthread("spline_1");
-
-		$player1.setOrigin('4972 -760 -636');
-		$player1.bind(func_mover);
-
-		// Bromwich can flop around the boat when it starts, dealing damage to him.
-		// Binding the ragdoll doesn't work so try this.
-		sys.getEntity(ENT_BROMWICH).ignoreDamage();
-
-		func_mover.startSpline(spline);
-
-		sys.wait(5);
-
 		// finish the objective
 		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
 
 		// For some reason (bug?), even though at this point all objective components are complete,
 		// and the 'objective complete' notification happens, it's not checked as complete in the UI.
 		// Do it ourselves here.
-		$player1.setObjectiveState(OBJ_FINAL, OBJ_COMPLETE);
+		//$player1.setObjectiveState(OBJ_FINAL, OBJ_COMPLETE);
 	}
 }
 
