@@ -34,7 +34,6 @@ void start_spline_end()
 
 void setHandleFrobable()
 {
-	sys.println("function called");
 	$lever.setFrobable(1);
 }
 
