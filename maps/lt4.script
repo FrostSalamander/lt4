@@ -29,11 +29,6 @@ void start_spline_end()
 	{
 		// finish the objective
 		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
-
-		// For some reason (bug?), even though at this point all objective components are complete,
-		// and the 'objective complete' notification happens, it's not checked as complete in the UI.
-		// Do it ourselves here.
-		//$player1.setObjectiveState(OBJ_FINAL, OBJ_COMPLETE);
 	}
 }
 
