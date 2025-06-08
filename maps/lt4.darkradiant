@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1549564" } 
-		KeyValue { "LastCameraAngle" "-18.4 107.924 0" } 
-		KeyValue { "LastCameraPosition" "4691.63 -1109.58 -550.778" } 
+		KeyValue { "EditTimeInSeconds" "1549603" } 
+		KeyValue { "LastCameraAngle" "-2.4 109.524 0" } 
+		KeyValue { "LastCameraPosition" "520.875 -1642.3 -852.816" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/wooden_frame01/wooden_frame01_softlit" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1549564 }
+		TotalSecondsEdited { 1549603 }
 	}
 	Layers
 	{
