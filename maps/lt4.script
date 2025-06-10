@@ -1,6 +1,5 @@
 // Entity names
-string ENT_CANAL_LOCK = "atdm_froblock_1";
-string ENT_CANAL_DOOR = "atdm_mover_door_4";
+string ENT_CANAL_LOCK = "atdm_switch_translate_lever_3";
 
 float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
@@ -17,7 +16,7 @@ boolean canTakeBoat()
 	return (stateBromwichInBoat && stateDoor && stateKill);
 }
 
-// Set the lock to unfrobable once it's opened to prevent unwanted scenarios (door partially open, etc)
+// Set the canal lock to unfrobable once it's opened to prevent unwanted scenarios (door partially open, etc)
 void setLockUnfrobable()
 {
 	sys.getEntity(ENT_CANAL_LOCK).setFrobable(0);
@@ -30,11 +29,6 @@ void start_spline_end()
 		// finish the objective
 		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
 	}
-}
-
-void setHandleFrobable()
-{
-	$lever.setFrobable(1);
 }
 
 /////////
