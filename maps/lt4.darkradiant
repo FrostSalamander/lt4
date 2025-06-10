@@ -1,15 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "1552774" } 
-		KeyValue { "LastCameraAngle" "-13.2 291.124 0" } 
-		KeyValue { "LastCameraPosition" "4788.35 -1241.44 -511.403" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_fungi" } 
-	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1552774 }
+		TotalSecondsEdited { 1553517 }
+	}
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "1553517" } 
+		KeyValue { "LastCameraAngle" "-27.4 10.124 0" } 
+		KeyValue { "LastCameraPosition" "-149.805 -880.234 -741.071" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_fungi" } 
 	}
 	Layers
 	{
@@ -21890,9 +21890,8 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // brush (Brush)
 		Node { 5 } // brush (Brush)
 		Node { 5 } // brush (Brush)
-	}
-	SelectionSets
-	{
+		Node { 5 } // entity (atdm_target_set_frobable_11)
+		Node { 5 } // brush (Brush)
 	}
 	SelectionGroups
 	{
@@ -25150,9 +25149,11 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 25268 { "" }
 		SelectionGroup 25269 { "" }
 		SelectionGroup 25270 { "" }
-		SelectionGroup 25271 { "" }
 		SelectionGroup 25272 { "" }
 		SelectionGroup 25273 { "" }
+		SelectionGroup 25274 { "" }
+		SelectionGroup 25275 { "" }
+		SelectionGroup 25276 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -28446,11 +28447,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 8539 ) ( 25268 ) } // brush (Brush)
 		Node { ( 0 8540 ) ( 25268 ) } // brush (Brush)
 		Node { ( 0 8541 ) ( 25267 ) } // brush (Brush)
-		Node { ( 0 8548 ) ( 25271 ) } // brush (Brush)
-		Node { ( 0 8549 ) ( 25271 ) } // brush (Brush)
-		Node { ( 0 8550 ) ( 25271 ) } // brush (Brush)
-		Node { ( 0 8551 ) ( 25271 ) } // brush (Brush)
-		Node { ( 0 8552 ) ( 25271 ) } // brush (Brush)
+		Node { ( 0 8548 ) ( 25274 25275 25276 ) } // brush (Brush)
+		Node { ( 0 8549 ) ( 25274 25275 25276 ) } // brush (Brush)
+		Node { ( 0 8550 ) ( 25274 25275 25276 ) } // brush (Brush)
+		Node { ( 0 8551 ) ( 25274 25275 25276 ) } // brush (Brush)
+		Node { ( 0 8552 ) ( 25274 25275 25276 ) } // brush (Brush)
 		Node { ( 42 ) ( 193 24482 ) } // entity (atdm_streetlamp_round_02_lit_1)
 		Node { ( 43 ) ( 12 ) } // entity (func_static_4)
 		Node { ( 44 ) ( 12 ) } // entity (func_static_5)
@@ -35415,9 +35416,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5454 ) ( 25265 25266 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_55)
 		Node { ( 5455 ) ( 25265 25266 ) } // entity (func_static_3486)
 		Node { ( 5456 ) ( 25266 ) } // entity (func_emitter_81)
-		Node { ( 5473 ) ( 25270 ) } // entity (func_static_3493)
-		Node { ( 5474 ) ( 25270 ) } // entity (atdm_switch_translate_lever_3)
-		Node { ( 5475 16375 ) ( 25271 ) } // brush (Brush)
+		Node { ( 5473 ) ( 25270 25275 25276 ) } // entity (func_static_3493)
+		Node { ( 5474 ) ( 25270 25275 25276 ) } // entity (atdm_switch_translate_lever_3)
+		Node { ( 5475 ) ( 25275 25276 ) } // entity (lt4_door_wood_30)
 		Node { ( 5475 16377 ) ( 25272 25273 ) } // brush (Brush)
+		Node { ( 5476 ) ( 25276 ) } // entity (atdm_target_set_frobable_11)
+	}
+	SelectionSets
+	{
 	}
 }
