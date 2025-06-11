@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1564421" } 
-		KeyValue { "LastCameraAngle" "-42.8 351.124 0" } 
-		KeyValue { "LastCameraPosition" "-148.348 -872.214 -703.081" } 
+		KeyValue { "EditTimeInSeconds" "1566345" } 
+		KeyValue { "LastCameraAngle" "-23 179.124 0" } 
+		KeyValue { "LastCameraPosition" "1120.97 -1833.61 -760.019" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/papers/rotten_newspapers03" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1564421 }
+		TotalSecondsEdited { 1566345 }
 	}
 	Layers
 	{
@@ -21944,9 +21944,13 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (atdm_moveable_shortsword_8)
 		Node { 5 } // entity (func_static_3505)
 		Node { 5 } // patch (Patch)
-	}
-	SelectionSets
-	{
+		Node { 5 } // entity (atdm_team_relations_1)
+		Node { 5 } // entity (atdm_target_setobjective_visibility_5)
+		Node { 5 } // entity (func_static_3506)
+		Node { 5 } // patch (Patch)
+		Node { 5 } // entity (func_static_3507)
+		Node { 5 } // patch (Patch)
+		Node { 5 } // entity (speaker_37)
 	}
 	SelectionGroups
 	{
@@ -35527,5 +35531,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5510 ) ( 25299 ) } // entity (func_static_3265)
 		Node { ( 5511 ) ( 25299 ) } // entity (atdm_mover_lever_14)
 		Node { ( 5516 ) ( 25300 ) } // entity (func_static_3503)
+	}
+	SelectionSets
+	{
 	}
 }

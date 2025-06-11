@@ -1,0 +1,10 @@
+dog_sounds_fs
+{
+    editor_displayFolder  map_specific
+    minDistance 999999
+    maxDistance 999999
+    volume  1
+
+    sound/ambient/environmental/animal_dog01.ogg
+    sound/ambient/environmental/animal_dog02.ogg
+}

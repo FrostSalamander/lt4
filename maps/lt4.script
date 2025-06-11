@@ -5,15 +5,18 @@ float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
 float OBJ_COMP_DOOR = 2;
 float OBJ_COMP_ESCAPE = 3;
-float OBJ_KILL = 6;
+float OBJ_FIND_PERPS = 6;
+float OBJ_KILL = 7;
+float OBJ_NOKILL = 11;
 
 boolean canTakeBoat()
 {
 	float stateBromwichInBoat = $player1.getObjectiveComp(OBJ_FINAL, OBJ_COMP_BOAT);
 	float stateDoor = $player1.getObjectiveComp(OBJ_FINAL, OBJ_COMP_DOOR);
+	float stateFindPerps = $player1.getObjectiveState(OBJ_FIND_PERPS);
 	float stateKill = $player1.getObjectiveState(OBJ_KILL);
 
-	return (stateBromwichInBoat && stateDoor && stateKill);
+	return (stateBromwichInBoat && stateDoor && stateFindPerps && stateKill);
 }
 
 // Set the canal lock to unfrobable once it's opened to prevent unwanted scenarios (door partially open, etc)
@@ -29,6 +32,11 @@ void start_spline_end()
 		// finish the objective
 		$player1.setObjectiveComp(OBJ_FINAL, OBJ_COMP_ESCAPE, 1);
 	}
+}
+
+void updateNokillObjectiveText()
+{
+    $player1.setObjectiveText(OBJ_NOKILL, "Do not kill anyone (except those responsible).");
 }
 
 /////////
