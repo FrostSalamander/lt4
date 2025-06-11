@@ -1,0 +1,11 @@
+fs:prop_lantern_on
+{
+	"inherit"					"atdm:prop_lantern_on"
+	"def_attach"				"fs_light_lantern_oil_omni"
+}
+
+fs_light_lantern_oil_omni
+{
+	"inherit"				"light_lantern_oil_omni"
+	"light_radius" 			"96 96 96"
+}

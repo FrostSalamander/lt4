@@ -605,3 +605,24 @@ readables/lt4/journal_norman_father
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt4/note_inn_basement
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Dewey,"
+		""
+		"  Make sure you don't disturb the boss while he's got that foreigner in there. Maybe go and help Louise watch the dock or something."
+		""
+		"Pratt"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
