@@ -2,7 +2,7 @@
 FM Title           : The Lieutentant 4: A Reciprocal Gambit
 Author             : Frost_Salamander
 Build Date         : [TIMESTAMP]
-Version            : 0.5-beta
+Version            : 0.6-beta
 -------------------------------------------------------------------------------
 
 All mapping, story and readables by Frost_Salamander
@@ -14,6 +14,7 @@ Credits:
 - Cambridge Spy
 - Mat99
 - Shadow
+- Bikerdude
 
 ----------------------------------------------------------------------------------------------------
 * VISUAL ASSETS:
