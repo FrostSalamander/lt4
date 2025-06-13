@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1567392" } 
-		KeyValue { "LastCameraAngle" "-19.8 9.324 0" } 
-		KeyValue { "LastCameraPosition" "2602.15 -1259.4 -664.049" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/pointedtop_big01/pointedtop_big01_moonlit_soft" } 
+		KeyValue { "EditTimeInSeconds" "1567626" } 
+		KeyValue { "LastCameraAngle" "-11.8 118 0" } 
+		KeyValue { "LastCameraPosition" "2877.55 -1314.89 -338.912" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_darkbrown_dull" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1567392 }
+		TotalSecondsEdited { 1567626 }
 	}
 	SelectionSets
 	{
@@ -21958,6 +21958,8 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (func_static_3507)
 		Node { 5 } // patch (Patch)
 		Node { 5 } // entity (speaker_37)
+		Node { 5 } // entity (func_static_3508)
+		Node { 5 } // brush (Brush)
 	}
 	SelectionGroups
 	{
@@ -25239,6 +25241,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 25300 { "" }
 		SelectionGroup 25301 { "" }
 		SelectionGroup 25302 { "" }
+		SelectionGroup 25303 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -31496,8 +31499,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2507 11367 ) ( 23355 23353 23354 ) } // brush (Brush)
 		Node { ( 2507 11368 ) ( 23355 23353 23354 ) } // brush (Brush)
 		Node { ( 2507 11369 ) ( 23355 23353 23354 ) } // brush (Brush)
-		Node { ( 2508 ) ( 23357 23358 23924 ) } // entity (func_static_1932)
-		Node { ( 2509 ) ( 23924 ) } // entity (atdm_env_rope_150_4)
+		Node { ( 2508 ) ( 23357 23358 23924 25303 ) } // entity (func_static_1932)
+		Node { ( 2509 ) ( 23924 25303 ) } // entity (atdm_env_rope_150_4)
 		Node { ( 2510 ) ( 23366 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_38)
 		Node { ( 2511 ) ( 23366 ) } // entity (func_static_1934)
 		Node { ( 2519 ) ( 23368 24924 ) } // entity (func_static_1943)
@@ -35548,5 +35551,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5510 ) ( 25299 ) } // entity (func_static_3265)
 		Node { ( 5511 ) ( 25299 ) } // entity (atdm_mover_lever_14)
 		Node { ( 5516 ) ( 25300 ) } // entity (func_static_3503)
+		Node { ( 5525 ) ( 25303 ) } // entity (func_static_3508)
 	}
 }
