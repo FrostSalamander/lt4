@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1574980 }
+		TotalSecondsEdited { 1575113 }
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1574980" } 
-		KeyValue { "LastCameraAngle" "-35.6 165 0" } 
-		KeyValue { "LastCameraPosition" "831.917 -1637.92 -588.44" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/flat/concrete_mildew" } 
+		KeyValue { "EditTimeInSeconds" "1575113" } 
+		KeyValue { "LastCameraAngle" "-39 328.8 0" } 
+		KeyValue { "LastCameraPosition" "122.911 -933.343 -941.46" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/natural/rough_grey_dirty_sepia" } 
 	}
 	Layers
 	{
@@ -24778,9 +24778,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 24434 { "" }
 		SelectionGroup 24435 { "" }
 		SelectionGroup 24436 { "" }
-		SelectionGroup 24437 { "" }
-		SelectionGroup 24438 { "" }
-		SelectionGroup 24439 { "" }
 		SelectionGroup 24440 { "" }
 		SelectionGroup 24442 { "" }
 		SelectionGroup 24443 { "" }
@@ -25401,6 +25398,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 25347 { "" }
 		SelectionGroup 25348 { "" }
 		SelectionGroup 25349 { "" }
+		SelectionGroup 25350 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -28221,12 +28219,12 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 7177 ) ( 24436 ) } // brush (Brush)
 		Node { ( 0 7178 ) ( 24436 ) } // brush (Brush)
 		Node { ( 0 7179 ) ( 24436 ) } // brush (Brush)
-		Node { ( 0 7180 ) ( 24437 ) } // brush (Brush)
-		Node { ( 0 7181 ) ( 24437 ) } // brush (Brush)
-		Node { ( 0 7182 ) ( 24437 ) } // brush (Brush)
-		Node { ( 0 7183 ) ( 24437 ) } // brush (Brush)
-		Node { ( 0 7184 ) ( 24438 ) } // brush (Brush)
-		Node { ( 0 7185 ) ( 24439 ) } // brush (Brush)
+		Node { ( 0 7180 ) ( 25350 ) } // brush (Brush)
+		Node { ( 0 7181 ) ( 25350 ) } // brush (Brush)
+		Node { ( 0 7182 ) ( 25350 ) } // brush (Brush)
+		Node { ( 0 7183 ) ( 25350 ) } // brush (Brush)
+		Node { ( 0 7184 ) ( 25350 ) } // brush (Brush)
+		Node { ( 0 7185 ) ( 25350 ) } // brush (Brush)
 		Node { ( 0 7257 ) ( 24451 ) } // brush (Brush)
 		Node { ( 0 7258 ) ( 24451 ) } // brush (Brush)
 		Node { ( 0 7259 ) ( 24451 ) } // brush (Brush)
