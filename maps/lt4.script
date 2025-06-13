@@ -1,5 +1,7 @@
 // Entity names
 string ENT_CANAL_LOCK = "atdm_switch_translate_lever_3";
+string ENT_COWERING_AI = "atdm_ai_merchant01_1";
+string ENT_COWERING_SPEAKER = "speaker_2";
 
 float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
@@ -81,4 +83,16 @@ void main()
 	sys.waitFrame();
 
 	$bromwich.KO_Knockout($null_entity);
+
+    while (1)
+    {
+        ai cowering_ai = sys.getEntity(ENT_COWERING_AI);
+        if (cowering_ai.AI_KNOCKEDOUT)
+        {
+            sys.getEntity(ENT_COWERING_SPEAKER).remove();
+            return;
+        }
+
+        sys.wait(1);
+    }
 }
