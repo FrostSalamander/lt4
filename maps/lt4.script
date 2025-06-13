@@ -87,9 +87,6 @@ void main()
     while (1)
     {
         ai cowering_ai = sys.getEntity(ENT_COWERING_AI);
-
-        sys.println("looping");
-
         if (cowering_ai.AI_KNOCKEDOUT)
         {
             sys.getEntity(ENT_COWERING_SPEAKER).remove();
