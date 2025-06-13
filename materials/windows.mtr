@@ -13,3 +13,12 @@ textures/darkmod/window/fs_roundtop_diamond_pattern01_grey_moonlit
 		rgb		.25
 	}
 }
+
+textures/darkmod/window/frame_ornate_reinforced_moonlit
+{
+	stone
+
+	qer_editorimage textures/darkmod/window/frame_ornate_reinforced_moonlit_ed
+	diffusemap	textures/darkmod/window/frame_ornate_reinforced_moonlit
+	bumpmap		textures/darkmod/window/frame_ornate_reinforced_local
+}
