@@ -1,0 +1,103 @@
+///////////////////// roundtop_white01 /////////////////////////
+
+textures/darkmod/window/roundtop_white01/roundtop_white01_barelytlit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/roundtop_white01_barelylit_ed
+	diffusemap textures/darkmod/window/roundtop_white01
+	{
+		blend add
+		map 	textures/darkmod/window/roundtop_white01_pane_lit
+		rgb 0.3
+	}
+	bumpmap 	textures/darkmod/window/roundtop_white01_local
+	specularmap textures/darkmod/window/roundtop_white01_s
+
+}
+
+textures/darkmod/window/roundtop_white01/roundtop_white01_softlit
+{
+	glass
+	noselfshadow
+	
+	qer_editorimage textures/darkmod/window/roundtop_white01_softlit_ed
+	diffusemap textures/darkmod/window/roundtop_white01
+	{
+		blend add
+		map 	textures/darkmod/window/roundtop_white01_pane_lit
+		rgb 0.6
+	}
+	bumpmap 	textures/darkmod/window/roundtop_white01_local
+	specularmap textures/darkmod/window/roundtop_white01_s
+}
+
+textures/darkmod/window/roundtop_white01/roundtop_white01_brightlit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/roundtop_white01_brightlit_ed
+	diffusemap textures/darkmod/window/roundtop_white01
+	{
+		blend add
+		map 		textures/darkmod/window/roundtop_white01_pane_lit
+		rgb 1
+	}
+	bumpmap 		textures/darkmod/window/roundtop_white01_local
+	specularmap 	textures/darkmod/window/roundtop_white01_s
+}
+
+///////////////////// roundtop_white02_single /////////////////////////
+
+
+
+textures/darkmod/window/roundtop_white02_single/roundtop_white02_single_barelylit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/roundtop_white02_single_barelylit_ed
+	diffusemap textures/darkmod/window/roundtop_white02_single
+	{
+		blend	add
+		map		textures/darkmod/window/roundtop_white02_spane_lit
+		rgb		0.3
+	}
+	bumpmap 	textures/darkmod/window/roundtop_white02_single_local
+	specularmap textures/darkmod/window/roundtop_white02_single_s
+
+}
+
+textures/darkmod/window/roundtop_white02_single/roundtop_white02_single_softlit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/roundtop_white02_single_softlit_ed
+	diffusemap textures/darkmod/window/roundtop_white02_single
+	{
+		blend	add
+		map		textures/darkmod/window/roundtop_white02_spane_lit
+		rgb		0.6
+	}
+	bumpmap 	textures/darkmod/window/roundtop_white02_single_local
+	specularmap textures/darkmod/window/roundtop_white02_single_s
+}
+
+textures/darkmod/window/roundtop_white02_single/roundtop_white02_single_brightlit
+{
+	glass
+	noselfshadow
+	
+	qer_editorimage textures/darkmod/window/roundtop_white02_single_brightlit_ed
+	diffusemap textures/darkmod/window/roundtop_white02_single
+	{
+		blend	add
+		map		textures/darkmod/window/roundtop_white02_spane_lit
+		rgb		1
+	}
+	bumpmap 	textures/darkmod/window/roundtop_white02_single_local
+	specularmap textures/darkmod/window/roundtop_white02_single_s
+}
