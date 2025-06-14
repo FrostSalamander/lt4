@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1580363" } 
-		KeyValue { "LastCameraAngle" "-53 169.8 0" } 
-		KeyValue { "LastCameraPosition" "4279.51 -683.663 193.874" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/cobblestones_rounded_blue" } 
+		KeyValue { "EditTimeInSeconds" "1580447" } 
+		KeyValue { "LastCameraAngle" "-9 83 0" } 
+		KeyValue { "LastCameraPosition" "3573.7 -509.988 87.4866" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/lamp_glass_moonlit_opaque" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1580363 }
+		TotalSecondsEdited { 1580447 }
 	}
 	SelectionGroups
 	{
@@ -2552,13 +2552,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 24242 { "" }
 		SelectionGroup 24243 { "" }
 		SelectionGroup 24245 { "" }
-		SelectionGroup 24246 { "" }
 		SelectionGroup 24247 { "" }
 		SelectionGroup 24248 { "" }
-		SelectionGroup 24249 { "" }
 		SelectionGroup 24250 { "" }
-		SelectionGroup 24251 { "" }
-		SelectionGroup 24252 { "" }
 		SelectionGroup 24253 { "" }
 		SelectionGroup 24254 { "" }
 		SelectionGroup 24259 { "" }
@@ -5936,33 +5932,22 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 6769 ) ( 24254 ) } // brush (Brush)
 		Node { ( 0 6770 ) ( 24254 ) } // brush (Brush)
 		Node { ( 0 6774 ) ( 24245 ) } // brush (Brush)
-		Node { ( 0 6775 ) ( 24248 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6776 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6777 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6778 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6779 ) ( 24247 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6780 ) ( 24248 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6781 ) ( 24247 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6782 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6783 ) ( 24248 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6784 ) ( 24247 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6785 ) ( 24248 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6786 ) ( 24247 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6787 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6788 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6789 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6790 ) ( 24246 24249 ) } // brush (Brush)
-		Node { ( 0 6794 ) ( 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6795 ) ( 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6796 ) ( 24250 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6797 ) ( 24253 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6798 ) ( 24250 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6799 ) ( 24253 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6800 ) ( 24250 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6801 ) ( 24250 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6802 ) ( 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6803 ) ( 24253 24251 24252 ) } // brush (Brush)
-		Node { ( 0 6804 ) ( 24253 24251 24252 ) } // brush (Brush)
+		Node { ( 0 6775 ) ( 24248 ) } // brush (Brush)
+		Node { ( 0 6779 ) ( 24247 ) } // brush (Brush)
+		Node { ( 0 6780 ) ( 24248 ) } // brush (Brush)
+		Node { ( 0 6781 ) ( 24247 ) } // brush (Brush)
+		Node { ( 0 6783 ) ( 24248 ) } // brush (Brush)
+		Node { ( 0 6784 ) ( 24247 ) } // brush (Brush)
+		Node { ( 0 6785 ) ( 24248 ) } // brush (Brush)
+		Node { ( 0 6786 ) ( 24247 ) } // brush (Brush)
+		Node { ( 0 6796 ) ( 24250 ) } // brush (Brush)
+		Node { ( 0 6797 ) ( 24253 ) } // brush (Brush)
+		Node { ( 0 6798 ) ( 24250 ) } // brush (Brush)
+		Node { ( 0 6799 ) ( 24253 ) } // brush (Brush)
+		Node { ( 0 6800 ) ( 24250 ) } // brush (Brush)
+		Node { ( 0 6801 ) ( 24250 ) } // brush (Brush)
+		Node { ( 0 6803 ) ( 24253 ) } // brush (Brush)
+		Node { ( 0 6804 ) ( 24253 ) } // brush (Brush)
 		Node { ( 0 6810 ) ( 24259 ) } // brush (Brush)
 		Node { ( 0 6811 ) ( 24259 ) } // brush (Brush)
 		Node { ( 0 6812 ) ( 24260 ) } // brush (Brush)
@@ -10913,10 +10898,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3525 13140 ) ( 22762 22769 ) } // brush (Brush)
 		Node { ( 3531 ) ( 24243 ) } // entity (func_emitter_55)
 		Node { ( 3532 ) ( 24243 ) } // entity (func_static_2527)
-		Node { ( 3538 ) ( 24246 24249 ) } // entity (light_53)
-		Node { ( 3539 ) ( 24249 ) } // entity (func_static_2531)
-		Node { ( 3540 ) ( 24252 ) } // entity (func_static_2532)
-		Node { ( 3541 ) ( 24251 24252 ) } // entity (light_54)
 		Node { ( 3553 13157 ) ( 24262 ) } // brush (Brush)
 		Node { ( 3553 13158 ) ( 24262 ) } // brush (Brush)
 		Node { ( 3553 13159 ) ( 24262 ) } // brush (Brush)
