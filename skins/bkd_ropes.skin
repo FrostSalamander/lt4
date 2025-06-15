@@ -1,0 +1,14 @@
+skin rope_glow
+{
+    model env_rope
+    model env_rope_100
+	model env_rope_150
+    model env_rope_200
+    model env_rope_250
+    model env_rope_300
+    model env_rope_350
+    model env_rope_400
+	model models/darkmod/architecture/supports/beam_end03_rope.lwo
+
+    models/misc/rope models/misc/rope_glow
+}

@@ -1,0 +1,16 @@
+
+models/misc/rope_glow
+{
+	qer_editorimage	models/darkmod/props/textures/rope_d_ed
+	surftype15
+	description "cloth"
+	noselfshadow
+
+	diffusemap	_black
+	{
+		blend	add
+		map		models/darkmod/props/textures/rope_d
+		rgb		0.175
+	}
+	bumpmap		models/darkmod/props/textures/shortbow/shortbow_local
+}
