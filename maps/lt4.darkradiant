@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1595960" } 
-		KeyValue { "LastCameraAngle" "-23.8 64.8001 0" } 
-		KeyValue { "LastCameraPosition" "4197.71 -105.696 -329.48" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/common/tdm_nodrawsolid_wood" } 
+		KeyValue { "EditTimeInSeconds" "1596268" } 
+		KeyValue { "LastCameraAngle" "-27.2 241.8 0" } 
+		KeyValue { "LastCameraPosition" "867.688 -1521.08 -481.255" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_flat" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1595960 }
+		TotalSecondsEdited { 1596268 }
 	}
 	SelectionSets
 	{
@@ -36131,5 +36131,7 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (atdm_latch_door_01_small_E_lock2)
 		Node { 5 } // entity (atdm_latch_door_01_small_E_plateB2)
 		Node { 5 } // entity (atdm_latch_door_01_small_E_plateA2)
+		Node { 5 } // entity (func_static_504)
+		Node { 5 } // patch (Patch)
 	}
 }
