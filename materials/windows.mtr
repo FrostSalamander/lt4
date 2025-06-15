@@ -13,3 +13,22 @@ textures/darkmod/window/fs_roundtop_diamond_pattern01_grey_moonlit
 		rgb		.25
 	}
 }
+
+textures/darkmod/window/lamp_glass_lit_opaque_dimmer
+{
+
+	glass
+	noshadows
+       	noselfshadow
+
+       	qer_editorimage textures/darkmod/window/lamp_glass_lit_ed
+		specularmap	textures/darkmod/window/lamp_glass_s
+
+        {
+		blend	add //gl_one, gl_dst_alpha
+		map	textures/darkmod/window/lamp_glass_lit
+		rgb	0.2
+	}
+
+
+}
