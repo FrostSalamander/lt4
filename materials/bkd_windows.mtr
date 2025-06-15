@@ -194,7 +194,7 @@ textures/darkmod/window/metal_dark_moonlit
 	noselfshadow
 
 	qer_editorimage textures/darkmod/window/metal_dark_moonlit_ed
-	diffusemap		textures/darkmod/window/metal_dark_lit
+	diffusemap		textures/darkmod/window/metal_dark_unlit
 	{
 		blend	add
 		map			textures/darkmod/window/metal_dark_moonlit_overlay
