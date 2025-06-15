@@ -23,7 +23,7 @@ textures/darkmod/window/roundtop_white01/roundtop_white01_softlit
 	noselfshadow
 	
 	qer_editorimage textures/darkmod/window/roundtop_white01_softlit_ed
-	diffusemap textures/darkmod/window/roundtop_white01
+	diffusemap 	textures/darkmod/window/roundtop_white01
 	{
 		blend add
 		map 	textures/darkmod/window/roundtop_white01_lit_overlay
@@ -54,12 +54,12 @@ textures/darkmod/window/roundtop_white01/roundtop_white01_moonlit
 	glass
 	noselfshadow
 
-	qer_editorimage textures/darkmod/window/roundtop_white01_brightlit_ed
+	qer_editorimage textures/darkmod/window/roundtop_white01_moonlit_ed
 	diffusemap textures/darkmod/window/roundtop_white01
 	{
 		blend add
 		map 		textures/darkmod/window/roundtop_white01_moonlit_overlay
-		rgb 1
+		rgb 0.25
 	}
 	bumpmap 		textures/darkmod/window/roundtop_white01_local
 	specularmap 	textures/darkmod/window/roundtop_white01_s
@@ -123,18 +123,22 @@ textures/darkmod/window/roundtop_white02_single/roundtop_white02_single_moonlit
 	glass
 	noselfshadow
 	
-	qer_editorimage textures/darkmod/window/roundtop_white02_single_brightlit_ed
+	qer_editorimage textures/darkmod/window/roundtop_white02_single_moonlit_ed
 	diffusemap textures/darkmod/window/roundtop_white02_single
 	{
 		blend	add
 		map		textures/darkmod/window/roundtop_white02_moonlit_overlay
-		rgb		1
+		rgb		0.25
 	}
 	bumpmap 	textures/darkmod/window/roundtop_white02_single_local
 	specularmap textures/darkmod/window/roundtop_white02_single_s
 }
 
+
+
 ////////////////////metal pane windows ////////////////////////////////
+
+
 
 textures/darkmod/window/metal_crossed_selflit
 {
@@ -157,12 +161,12 @@ textures/darkmod/window/metal_crossed_moonlit
 	glass
 	noselfshadow
 	
-	qer_editorimage textures/darkmod/window/metal_crossed_ed
+	qer_editorimage textures/darkmod/window/metal_crossed_moonlit_ed
 	diffusemap		textures/darkmod/window/metal_crossed
 	{
 		blend	add
 		map			textures/darkmod/window/metal_crossed_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 	}
 	specularmap		textures/darkmod/window/metal_crossed_s
 	bumpmap			textures/darkmod/window/metal_crossed_local
@@ -189,12 +193,12 @@ textures/darkmod/window/metal_dark_moonlit
 	glass
 	noselfshadow
 
-	qer_editorimage textures/darkmod/window/metal_dark_lit_ed
-	diffusemap		textures/darkmod/window/metal_dark_unlit
+	qer_editorimage textures/darkmod/window/metal_dark_moonlit_ed
+	diffusemap		textures/darkmod/window/metal_dark_lit
 	{
 		blend	add
 		map			textures/darkmod/window/metal_dark_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 	}	
 	specularmap		textures/darkmod/window/metal_dark_unlit_s
 	bumpmap			textures/darkmod/window/metal_dark_unlit_local
@@ -226,7 +230,7 @@ textures/darkmod/window/metal_diamond_pattern3_moonlit
 	{
 		blend	add
 		map			textures/darkmod/window/metal_diamond_pattern3_moonlit_overlay
-		rgb 	0.5
+		rgb 	0.25
 	}
 	specularmap		textures/darkmod/window/metal_diamond_pattern3_s
 	bumpmap			textures/darkmod/window/metal_diamond_pattern3_local
@@ -255,11 +259,11 @@ textures/darkmod/window/metal_irregularpanes_moonlit
 	noselfshadow
 	
 	qer_editorimage 	textures/darkmod/window/metal_irregularpanes_moonlit_ed
-	diffusemap			textures/darkmod/window/metal_irregularpanes_moonlit
+	diffusemap			textures/darkmod/window/metal_irregularpanes_lit
 	{
 		blend	add
 		map				textures/darkmod/window/metal_irregularpanes_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 	}
 	specularmap			textures/darkmod/window/metal_irregularpanes_lit_s
 	bumpmap				textures/darkmod/window/metal_irregularpanes_local
@@ -314,7 +318,7 @@ textures/darkmod/window/diamond_pattern05_moonlit
 {
 		blend	add
 		map			textures/darkmod/window/diamond_pattern05_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 }
 	specularmap		textures/darkmod/window/diamond_pattern05_unlit_s
 	bumpmap			textures/darkmod/window/diamond_pattern05_unlit_local
@@ -348,7 +352,7 @@ textures/darkmod/window/diamond_pattern04_moonlit
 {
 		blend	add
 		map			textures/darkmod/window/diamond_pattern04_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 }
 	specularmap		textures/darkmod/window/diamond_pattern04_unlit_s
 	bumpmap			textures/darkmod/window/diamond_pattern04_unlit_local
@@ -359,7 +363,7 @@ textures/darkmod/window/frame_ornate_reinforced_selflit
 	stone
 	noselfshadow
 
-	qer_editorimage textures/darkmod/window/frame_ornate_reinforced_ed
+	qer_editorimage textures/darkmod/window/frame_ornate_reinforced_lit_ed
 	diffusemap		textures/darkmod/window/frame_ornate_reinforced
 	{
 		blend	add
@@ -374,12 +378,12 @@ textures/darkmod/window/frame_ornate_reinforced_moonlit
 	stone
 	noselfshadow
 
-	qer_editorimage textures/darkmod/window/frame_ornate_reinforced_ed
+	qer_editorimage textures/darkmod/window/frame_ornate_reinforced_moonlit_ed
 	diffusemap		textures/darkmod/window/frame_ornate_reinforced
 	{
 		blend	add
 		map			textures/darkmod/window/frame_ornate_reinforced_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 	}
 	bumpmap			textures/darkmod/window/frame_ornate_reinforced_local
 }
@@ -394,6 +398,22 @@ textures/darkmod/window/largesquare02_lit
 	{
 		blend	add
 		map			textures/darkmod/window/largesquare02_lit_overlay
+		rgb		0.5
+	}
+	specularmap		textures/darkmod/window/largesquare02_s
+	bumpmap			textures/darkmod/window/largesquare02_local
+}
+
+textures/darkmod/window/largesquare02_selflit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage	textures/darkmod/window/largesquare02_selflit_ed
+	diffusemap		textures/darkmod/window/largesquare02_selflit
+	{
+		blend	add
+		map			textures/darkmod/window/largesquare02_lit_overlay
 		rgb		1
 	}
 	specularmap		textures/darkmod/window/largesquare02_s
@@ -405,12 +425,12 @@ textures/darkmod/window/largesquare02_moonlit
 	glass
 	noselfshadow
 
-	qer_editorimage	textures/darkmod/window/largesquare02_lit_ed
-	diffusemap		textures/darkmod/window/largesquare02_lit
+	qer_editorimage	textures/darkmod/window/largesquare02_moonlit_ed
+	diffusemap		textures/darkmod/window/largesquare02_moonlit
 	{
 		blend	add
 		map			textures/darkmod/window/largesquare02_moonlit_overlay
-		rgb		0.75
+		rgb		0.25
 	}
 	specularmap		textures/darkmod/window/largesquare02_s
 	bumpmap			textures/darkmod/window/largesquare02_local
