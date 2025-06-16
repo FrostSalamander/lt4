@@ -138,7 +138,55 @@ textures/darkmod/window/roundtop_white02_single/roundtop_white02_single_moonlit
 
 ////////////////////metal pane windows ////////////////////////////////
 
+textures/darkmod/window/metal_diamond_pattern1_lit
+{
+	glass
+	noselfshadow
 
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern1_lit_ed
+	diffusemap		textures/darkmod/window/metal_diamond_pattern1_lit
+	{
+		blend add
+		map			textures/darkmod/window/metal_diamond_pattern1_lit_overlay
+	}
+	bumpmap			textures/darkmod/window/metal_diamond_pattern1_local
+	specularmap		textures/darkmod/window/metal_diamond_pattern1_lit_s
+
+}
+
+textures/darkmod/window/metal_diamond_pattern1_selflit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern1_lit_ed
+	diffusemap		textures/darkmod/window/metal_diamond_pattern1_lit
+	{
+		blend add
+		map			textures/darkmod/window/metal_diamond_pattern1_lit_overlay
+		rgb .5
+	}
+	bumpmap			textures/darkmod/window/metal_diamond_pattern1_local
+	specularmap		textures/darkmod/window/metal_diamond_pattern1_lit_s
+
+}
+
+textures/darkmod/window/metal_diamond_pattern1_moonlit
+{
+	glass
+	noselfshadow
+
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern1_moonlit_ed
+	diffusemap		textures/darkmod/window/metal_diamond_pattern1_moonlit
+	{
+		blend add
+		map			textures/darkmod/window/metal_diamond_pattern1_moonlit_overlay
+		rgb .25
+	}
+	bumpmap			textures/darkmod/window/metal_diamond_pattern1_local
+	specularmap		textures/darkmod/window/metal_diamond_pattern1_lit_s
+
+}
 
 textures/darkmod/window/metal_crossed_selflit
 {
@@ -194,7 +242,7 @@ textures/darkmod/window/metal_dark_moonlit
 	noselfshadow
 
 	qer_editorimage textures/darkmod/window/metal_dark_moonlit_ed
-	diffusemap		textures/darkmod/window/metal_dark_unlit
+	diffusemap		textures/darkmod/window/metal_dark_lit
 	{
 		blend	add
 		map			textures/darkmod/window/metal_dark_moonlit_overlay
@@ -225,7 +273,7 @@ textures/darkmod/window/metal_diamond_pattern3_moonlit
 	glass
 	noselfshadow
 	
-	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_moonlit_ed
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_selflit_ed
 	diffusemap		textures/darkmod/window/metal_diamond_pattern3_lit
 	{
 		blend	add
