@@ -273,7 +273,7 @@ textures/darkmod/window/metal_diamond_pattern3_moonlit
 	glass
 	noselfshadow
 	
-	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_selflit_ed
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_moonlit_ed
 	diffusemap		textures/darkmod/window/metal_diamond_pattern3_lit
 	{
 		blend	add
