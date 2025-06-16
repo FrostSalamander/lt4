@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1599745" } 
-		KeyValue { "LastCameraAngle" "-4.4 350.6 0" } 
-		KeyValue { "LastCameraPosition" "152.174 -1130.32 -912.979" } 
+		KeyValue { "EditTimeInSeconds" "1599877" } 
+		KeyValue { "LastCameraAngle" "-1.55866e-06 355.4 0" } 
+		KeyValue { "LastCameraPosition" "2692.99 -1533.67 -22.9754" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_diamond_pattern3_moonlit_twosided" } 
 	}
 	Layers
@@ -22420,13 +22420,14 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 1 } // entity (func_static_2560)
 		Node { 1 } // entity (func_static_172)
+		Node { 5 } // entity (path_flee_point_2)
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1599745 }
+		TotalSecondsEdited { 1599877 }
 	}
 	SelectionGroups
 	{
