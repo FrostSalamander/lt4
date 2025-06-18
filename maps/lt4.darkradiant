@@ -1,15 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "1599916" } 
-		KeyValue { "LastCameraAngle" "-12 170.4 0" } 
-		KeyValue { "LastCameraPosition" "5293.11 -1119.11 -431.596" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_diamond_pattern3_moonlit_twosided" } 
-	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1599916 }
+		TotalSecondsEdited { 1600207 }
+	}
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "1600207" } 
+		KeyValue { "LastCameraAngle" "67.6 41.2 0" } 
+		KeyValue { "LastCameraPosition" "2617.23 -1104.26 -656.356" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/dirt/painting_wall_grime" } 
 	}
 	Layers
 	{
@@ -22324,8 +22324,6 @@ DarkRadiant Map Information File Version 2
 		Node { 5 } // entity (path_sit_15)
 		Node { 5 } // entity (path_corner_122)
 		Node { 5 } // entity (atdm_relight_position_1)
-		Node { 5 } // entity (func_static_3501)
-		Node { 5 } // patch (Patch)
 		Node { 5 } // entity (atdm_latch_door_01_small_E_lock2)
 		Node { 5 } // entity (atdm_latch_door_01_small_E_plateB2)
 		Node { 5 } // entity (atdm_latch_door_01_small_E_plateA2)
@@ -22425,6 +22423,8 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (func_static_2560)
 		Node { 1 } // entity (func_static_172)
 		Node { 5 } // entity (path_flee_point_2)
+		Node { 5 } // entity (func_static_3501)
+		Node { 5 } // patch (Patch)
 	}
 	SelectionSets
 	{
@@ -36132,27 +36132,27 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5571 ) ( 25385 ) } // entity (func_static_3583)
 		Node { ( 5572 ) ( 25385 ) } // entity (func_static_3584)
 		Node { ( 5573 ) ( 25385 ) } // entity (func_static_3585)
-		Node { ( 5579 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_lock2)
-		Node { ( 5580 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_plateB2)
-		Node { ( 5581 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_plateA2)
-		Node { ( 5598 16742 ) ( 24983 ) } // brush (Brush)
-		Node { ( 5600 16748 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16749 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16750 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16751 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16752 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16753 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16754 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16755 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16756 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16757 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16758 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16759 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16760 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16761 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16762 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5600 16763 ) ( 25022 ) } // brush (Brush)
-		Node { ( 5601 ) ( 25404 ) } // entity (light_64)
-		Node { ( 5602 ) ( 25404 ) } // entity (func_static_524)
+		Node { ( 5578 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_lock2)
+		Node { ( 5579 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_plateB2)
+		Node { ( 5580 ) ( 25388 ) } // entity (atdm_latch_door_01_small_E_plateA2)
+		Node { ( 5597 16741 ) ( 24983 ) } // brush (Brush)
+		Node { ( 5599 16747 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16748 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16749 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16750 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16751 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16752 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16753 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16754 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16755 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16756 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16757 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16758 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16759 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16760 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16761 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5599 16762 ) ( 25022 ) } // brush (Brush)
+		Node { ( 5600 ) ( 25404 ) } // entity (light_64)
+		Node { ( 5601 ) ( 25404 ) } // entity (func_static_524)
 	}
 }
