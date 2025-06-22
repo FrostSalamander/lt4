@@ -2,6 +2,7 @@
 string ENT_CANAL_LOCK = "atdm_switch_translate_lever_3";
 string ENT_COWERING_AI = "atdm_ai_merchant01_1";
 string ENT_COWERING_SPEAKER = "speaker_2";
+string ENT_FISHEND_LIGHTSWITCH = "atdm_switch_translate_lever_2";
 
 string CITY_MAP = "city_map";       // map entity
 string MAP_OF   = "atdm_map_of_1";  // in-game map entity
@@ -14,6 +15,16 @@ float OBJ_COMP_ESCAPE = 3;
 float OBJ_FIND_PERPS = 6;
 float OBJ_KILL = 7;
 float OBJ_NOKILL = 11;
+
+void setFishendLightSwitchFrobable(entity zone)
+{
+    sys.getEntity(ENT_FISHEND_LIGHTSWITCH).setFrobable(1);
+}
+
+void setFishendLightSwitchNotFrobable(entity zone)
+{
+    sys.getEntity(ENT_FISHEND_LIGHTSWITCH).setFrobable(0);
+}
 
 boolean canTakeBoat()
 {
