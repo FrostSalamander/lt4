@@ -1,15 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapEditTimings
-	{
-		TotalSecondsEdited { 1600207 }
-	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1600207" } 
-		KeyValue { "LastCameraAngle" "67.6 41.2 0" } 
-		KeyValue { "LastCameraPosition" "2617.23 -1104.26 -656.356" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/dirt/painting_wall_grime" } 
+		KeyValue { "EditTimeInSeconds" "1600622" } 
+		KeyValue { "LastCameraAngle" "-18.4 8 0" } 
+		KeyValue { "LastCameraPosition" "154.373 55.3041 -571.035" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/papers/lt4_map" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 1600622 }
 	}
 	Layers
 	{
@@ -22424,6 +22424,8 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (func_static_172)
 		Node { 5 } // entity (path_flee_point_2)
 		Node { 5 } // entity (func_static_3501)
+		Node { 5 } // patch (Patch)
+		Node { 5 } // entity (city_map)
 		Node { 5 } // patch (Patch)
 	}
 	SelectionSets

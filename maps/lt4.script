@@ -3,6 +3,10 @@ string ENT_CANAL_LOCK = "atdm_switch_translate_lever_3";
 string ENT_COWERING_AI = "atdm_ai_merchant01_1";
 string ENT_COWERING_SPEAKER = "speaker_2";
 
+string CITY_MAP = "city_map";       // map entity
+string MAP_OF   = "atdm_map_of_1";  // in-game map entity
+string PLAYER = "player1";
+
 float OBJ_FINAL = 4;
 float OBJ_COMP_BOAT = 1;
 float OBJ_COMP_DOOR = 2;
@@ -76,6 +80,16 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
             target.Open();
         }
     }
+}
+
+void getMap()
+{   
+    entity map = sys.getEntity(CITY_MAP);
+    map.remove();
+
+    player player_self = sys.getEntity(PLAYER);
+    player_self.addInvItem(sys.getEntity(MAP_OF));
+    player_self.setCurInvItem("Map");
 }
 
 void main()

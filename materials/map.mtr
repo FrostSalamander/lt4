@@ -1,0 +1,12 @@
+textures/darkmod/decals/papers/lt4_map
+{
+   nonsolid
+   noShadows
+
+   {
+        blend   diffusemap
+        map     guis/assets/game_maps/map_of
+        alphaTest 0.5
+   }
+
+}
