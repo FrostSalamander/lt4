@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1602487" } 
-		KeyValue { "LastCameraAngle" "5.4 306.6 0" } 
-		KeyValue { "LastCameraPosition" "91.454 -1012.53 -626.619" } 
+		KeyValue { "EditTimeInSeconds" "1602580" } 
+		KeyValue { "LastCameraAngle" "-45.2 108.6 0" } 
+		KeyValue { "LastCameraPosition" "3766.59 -537.497 -339.785" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1602487 }
+		TotalSecondsEdited { 1602580 }
 	}
 	Layers
 	{
@@ -25798,6 +25798,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 25405 { "" }
 		SelectionGroup 25406 { "" }
 		SelectionGroup 25407 { "" }
+		SelectionGroup 25408 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -34387,6 +34388,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4561 ) ( 13486 ) } // entity (speaker_victrola_music_01)
 		Node { ( 4562 ) ( 13486 ) } // entity (speaker_victrola_switch_01)
 		Node { ( 4563 ) ( 13486 ) } // entity (victrola_working_01)
+		Node { ( 4566 ) ( 25408 ) } // entity (path_corner_91)
+		Node { ( 4567 ) ( 25408 ) } // entity (path_sit_13)
+		Node { ( 4569 ) ( 25408 ) } // entity (path_sleep_2)
 		Node { ( 4583 14651 ) ( 22472 22473 ) } // brush (Brush)
 		Node { ( 4583 14652 ) ( 22472 22473 ) } // brush (Brush)
 		Node { ( 4583 14653 ) ( 22468 22472 22473 ) } // brush (Brush)
