@@ -2,7 +2,7 @@
 FM Title           : The Lieutentant 4: A Reciprocal Gambit
 Author             : Frost_Salamander
 Build Date         : 22/06/2025
-Version            : 2
+Version            : 4
 --------------------------------------------------------------------------------------
 
 All mapping, story and readables by Frost_Salamander
